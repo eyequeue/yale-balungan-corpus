@@ -1,0 +1,11 @@
+<F Ladrang>
+<T Wesmister>
+<L slendro>
+<P sanga>
+<S Buka>
+5 2 2 1	1 2 2 1	2 2 1 1	1 y y gt
+
+[5 2 2 1	1 y y nt	t 2 2 p5	5 2 2 jn1y
+j12 j22 j1y jp1y	j12 j22 j1y jn1y	j12 j22 j1y p1	2 6 ! g5
+! 6 5 2	2 6 ! n5	! 5 6 p2	2 6 ! n5
+5 5 5 p5	5 5 5 n5	5 2 2 p1	1 y y g5 ]

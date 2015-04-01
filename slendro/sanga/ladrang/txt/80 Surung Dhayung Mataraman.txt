@@ -1,0 +1,19 @@
+<F Ladrang>
+<T Surung Dhayung Mataraman>
+<L slendro>
+<P sanga>
+<S Buka>
+t 5 5 5	! 6 ! 5	! 6 2 1	3 2 y gt
+<S Ompak>
+[t t t t	t y 1 n2	2 1 y pt	t y 1 n2
+2 1 y p5	! 6 ! n5	! 6 2 p1	3 2 y gt ]
+<S Tamban>
+[! ! t t	t y 1 n2	2 1 y pt	t y 1 n2
+2 1 y p5	! 6 ! n5	! 6 2 p1	6 5 6 g!
+<S Ngelik>
+[# % # @	! 6 3 n5	! @ ! p6	5 3 1 n2
+6 3 5 p6	@ ! 6 n5	j65 6 2 p1	3 2 y gt
+t t t t	t y 1 n2	2 1 y pt	t y 1 n2
+2 1 y p5	! 6 ! n5	j65 6 2 p1	3 2 y jgtny
+jnptny njptny pjntny jnptny	jnptny jnptny jpntn3 jnG2n3	jnp2n3 jnp2n3 jnp2ny jnptny	jnptny jnptny jnptn3 jnG2n3
+jnp2n3 np2 2 p5	! 6 ! n5	! 6 2 p1	6 5 6 g! ]

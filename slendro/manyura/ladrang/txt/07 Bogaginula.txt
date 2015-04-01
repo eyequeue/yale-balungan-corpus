@@ -1,0 +1,10 @@
+<F Ladrang>
+<T Bogaginula>
+<L slendro>
+<P manyura>
+
+[6 3 3 2	2 3 3 n1	1 3 3 p2	2 1 1 ny
+6 3 3 p2	2 3 3 n1	1 3 3 p2	2 1 1 g6 
+
+6 @ @ !	! 5 5 n3	3 5 5 p6	6 5 5 n3
+3 @ @ p!	! 3 3 n2	2 3 3 p2	2 1 1 gy ]

@@ -1,0 +1,16 @@
+<F Ladrang>
+<T Wirangong>
+<L slendro>
+<P sanga>
+<S Buka>
+5 6 5 3	2 1 y t	t y y e	e y y gt
+<S Ompak>
+[y 2 y 1	y e y nt	y 2 y p1	y e y nt
+y 2 y p1	y e y nt	2 3 5 p6	3 5 3 g2
+5 6 5 3	2 1 y nt	2 3 5 p6	3 5 2 n3
+5 6 5 p3	2 1 y nt	t y y pe	e y y gt ]
+<S Tamban-cèengkok gong 2>
+y py py 2	y py py 1	y py py e	y py py n5
+y py py 2	y py py 1	y py py e	y py py n5
+y py py 2	y py py 1	y py py e	y py py n5
+5 2 2 3	3 5 5 p6	6 3 3 5	5 3 3 g2

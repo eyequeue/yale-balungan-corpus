@@ -1,0 +1,14 @@
+<F Ladrang>
+<T Siyem>
+<L slendro>
+<P nem>
+<C Wirapradangga MW>
+<S Buka>
+2 6 6 5	5 6 5 3	3 6 6 5	5 3 3 g2
+<S Ompak>
+2 2 2 2	2 j32 j35 jn2y	j25 6 6 p2	j21 j21 j25 n3
+3 3 3 pj35	j35 2 k3k5k23 jn56	j23 5 6 p5	j53 j53 j56 g5
+j56 j!6 j!@ 6	j6! j6! j25 n3	3 6 6 p5	5 3 3 n2
+2 2 2 p3	j35 j35 j25 n3	3 3 5 3	j35 j35 @ g!
+1 # # @	@ j!6 j!@ n6	6 6 j!5 p5	5 j6! j56 jn!@
+j56 ! ! p6	j6! j6! j25 n3	3 6 6 p5	j52 j32 j35 g2 ]

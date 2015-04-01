@@ -1,0 +1,10 @@
+<F Ladrang>
+<T Seming>
+<L slendro>
+<P sanga>
+[t 1 1 y	y 2 2 n1	1 2 2 py	y 2 2 n1
+1 5 5 p6	6 3 3 n2	2 3 3 p2	2 y y gt
+t 1 1 y	y 2 2 n1	1 2 2 py	y 2 2 n1
+1 5 5 p6	6 3 3 n2	2 3 3 p2	2 5 5 g6
+6 5 5 6	6 @ @ n!	! @ @ p6	6 @ @ n!
+! 5 5 p6	6 3 3 n2	2 3 3 p2	2 y y gt ]

@@ -1,0 +1,16 @@
+<F Ladrang>
+<T Cikar Bobrok>
+<L slendro>
+<P manyura>
+<S Buka>
+6 6 2 2	2 3 6 5	! 6 5 3	6 5 3 g2
+
+<S Lancar>
+[2 6 2 2	2 3 6 n5	! @ ! p6	3 5 6 n3
+6 5 6 p2	6 ! 6 n5	! 6 5 p3	6 5 3 g2 ]
+
+<S Ciblon>
+[j22 j22 j35 6	j65 6 3 j22	j22 j22 j35 6	j65 6 3 n5
+5 ! 1 @		@ ! ! p6	6 3 3 5	5 6 6 n3
+6 6 6 5		6 6 6 p2	6 6 6 !	6 6 6 n5
+5 ! ! 6	6 5 5 p3	3 6 6 p5	5 3 3 g2 ]

@@ -1,0 +1,18 @@
+<F Ladrang>
+<T Ubal-ubal>
+<L slendro>
+<P sanga>
+<S Buka>
+t 2 2 1	1 2 2 1	2 2 1 1	1 y y gt
+[t t t 2	1 1 1 y	y y y 2	2 2 2 n1
+1 1 1 5	5 5 5 p6	6 6 6 2	2 2 2 n1
+1 1 1 5	5 5 5 p6	6 6 6 2	2 2 2 n1
+1 1 1 3	3 3 3 p2	2 2 2 y	y y y gt
+t t t 2	2 2 2 1	3 2 y t	1 y t ne
+jey jty e jey	jty e jty p1	3 2 y t	e y t ne
+jey jty e jey	jty e jty p1	3 2 y t	e y t ne
+e 2 2 2	2 3 3 p2	2 y y t	t e e gt
+t t t 1	1 1 1 y	2 1 t e	y t e nw
+jtt jet w jwt	jet w jet py	2 1 t e	y t e nw
+jtt jet w jwt	jet w jet py	2 1 t e	y t e nw
+w 1 1 1	1 2 2 p1	1 6 6 5	5 3 3 g5 ]

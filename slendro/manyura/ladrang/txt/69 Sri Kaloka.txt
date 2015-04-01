@@ -1,0 +1,9 @@
+<F Ladrang>
+<T Sri Kaloka>
+<L slendro>
+<P manyura>
+<S Buka>
+y y y y	y 1 2 3	3 3 3 3	3 y y 1	1 2 2 3	3 1 1 g2
+
+[2 3 3 2	2 5 5 n3	3 ! ! p6	6 5 5 n3
+3 2 2 p1	1 2 2 ny	y 5 5 p3	3 1 1 g2 ]

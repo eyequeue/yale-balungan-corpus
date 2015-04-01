@@ -1,0 +1,6 @@
+<F Ladrang>
+<T Pucang Keringan>
+<L slendro>
+<P manyura>
+[y 1 1 y	y 3 3 n2	2 5 5 p3	3 2 2 n1
+1 5 1 p6	6 3 3 n2	2 3 3 p2	2 1 2 gy ]

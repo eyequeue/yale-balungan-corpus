@@ -1,0 +1,16 @@
+<F Ladrang>
+<T Jong Layar>
+<L slendro>
+<P nem>
+<S Buka>
+w	w e t y
+y y y e	e y y e	e y y t	t e e gw
+
+[w e e t	t e e nw	w e e pt	t e e nw
+w e e pt	t y y nt	t e e pt	t e e gw
+w e e t	t e e nw	w e e pt	t e e nw
+w e e pt	t y y nt	t 2 2 p3	3 1 1 gy
+y 5 5 3	3 5 5 n6	6 5 5 p3	3 5 5 n6
+6 3 3 p5	5 6 6 n5	5 2 2 p3	3 1 1 gy
+y t t e	e t t ny	y t t pe	e t t ny
+y e e pt	t y y nt	t y y pt	t e e gw ]

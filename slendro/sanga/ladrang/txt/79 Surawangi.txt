@@ -1,0 +1,11 @@
+<F Ladrang>
+<T Surawangi (Surabayan)>
+<L slendro>
+<P sanga>
+<S Buka>
+t t t t	t 2 2 2	2 3 5 6	2 1 y gt
+<S Ompak>
+[t 5 ! 6	@ ! 6 n5	! 6 5 p3	6 5 3 n2
+2 3 5 p6	@ ! 6 n5	2 3 5 p3	5 3 2 g1
+5 6 @ !	5 6 @ n!	5 6 @ p!	# @ ! n6
+2 3 5 p6	2 1 2 ny	3 5 3 p2	y 1 y gt ]

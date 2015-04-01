@@ -1,0 +1,13 @@
+<F Ladrang>
+<T Liwung>
+<L slendro>
+<P nem>
+<C PA>
+<S Buka>
+2 1 y
+y 1 1 2	2 1 1 y	y e y t	t e e gw
+
+[w t t y	y e e nw	w t t py	y e e nw
+w t t py	y 1 1 ny	y 3 3 p5	5 3 3 g2
+2 5 5 3	3 1 1 ny	y 5 5 p3	3 1 1 ny
+y e e pt	t y y nt	t y y pt	t e e gw ]

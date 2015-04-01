@@ -1,0 +1,9 @@
+<F Ladrang>
+<T Gendruwo Momong>
+<L slendro>
+<P sanga>
+<S Buka>
+2 1 y y	2 1 y y	2 3 5 6	5 6 5 g5
+<S Ompak>
+[2 3 5 6	5 6 5 n5	2 1 y py	2 1 y ny
+2 1 y py	2 1 y ny	2 3 5 p6	5 6 5 g5 ]

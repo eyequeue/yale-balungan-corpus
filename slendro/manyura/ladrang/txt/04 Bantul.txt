@@ -1,0 +1,10 @@
+<F Ladrang>
+<T Bantul>
+<L slendro>
+<P manyura>
+[6 1 1 y	6 2 2 n3	3 5 5 p3	3 2 2 n1
+1 2 2 p1	1 2 2 ny	6 3 3 p2	2 1 1 gy ]
+
+<S Ngelik>
+6 @ @ !	! 5 5 n3	3 5 5 py	6 5 5 n3
+3 @ @ p!	! @ @ n6	6 3 3 p2	2 1 1 gy ]

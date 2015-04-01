@@ -1,0 +1,12 @@
+<F Ladrang>
+<T Sekar Gadhung Banyumas>
+<L slendro>
+<P sanga>
+<S>
+t y y t	t 2 2 n1	1 y y pt	t 2 2 n1
+1 2 2 p1	1 6 6 n5	5 2 2 p1	1 y y gt
+t y y t	t 2 2 n1	1 y y pt	t 2 2 n1
+1 2 2 p1	1 6 6 n5	5 2 2 p1	1 @ @ g!
+<S Ngelik>
+! @ @ !	! @ @ n!	! # # p@	@ 6 6 n5
+5 6 6 p5	5 6 6 n5	5 2 2 p1	1 y y gt ]

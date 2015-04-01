@@ -1,0 +1,9 @@
+<F Ladrang>
+<T Kusuma Asmara>
+<L slendro>
+<P sanga>
+[1 y y t	t 2 2 n1	1 2 2 py	y 2 2 n1
+1 2 2 p1	1 y y nt	t 2 2 p1	1 @ @ g1
+<S Ngelik>
+1 # # @	@ 6 6 n5	5 ! ! p6	6 2 2 n1
+1 5 5 p6	6 2 2 n1	1 2 2 p1	1 y y gt ]

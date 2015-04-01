@@ -1,0 +1,15 @@
+<F Ladrang>
+<T Gayung>
+<L slendro>
+<P nem>
+<C Suyadi Téjapangrawit - 20 Mei 2006>
+<S Buka>
+y 3 2 3	6 5 3 2	5 6 5 3	2 1 y gt
+<S Ompak>
+e y e e	e y e nt	e y e pe	e y e nt
+3 3 2 p3	6 5 3 n2	5 6 5 p3	2 1 y gt
+[e y e e	e y e nt	e y e pe	e y e nt
+3 3 2 p3	6 5 3 n2	5 6 5 p3	2 1 2 g6
+<S Ngelik>
+6 6 6 3	5 6 ! n6	3 5 6 p!	6 5 3 n2
+3 6 3 p5	3 6 3 n2	5 6 5 p3	2 1 y gt ]

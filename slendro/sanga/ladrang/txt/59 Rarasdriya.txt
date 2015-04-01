@@ -1,0 +1,20 @@
+<F Ladrang>
+<T Rarasdriya>
+<L slendro>
+<P sanga>
+<S Buka>
+t 2 2 1	1 2 2 1	2 2 1 1	1 y y gt
+
+[5 2 2 1	1 2 2 y	y 2 2 1	1 y y nt
+t 2 2 1	1 2 2 py	y 2 2 1	1 y y n5
+2 2 2 j35	j6! j!6 ! p5	j65 6 @ !	@ 6 3 n5
+2 2 5 3	2 1 2 py	y 2 2 1	1 y y gt
+t 2 2 1	1 2 2 py	y 2 2 1	1 y y nt
+t 2 2 1	1 2 2 py	y 2 2 1	1 y y nt
+2 2 2 j35	j6! j!6 ! p5	j65 6 @ !	@ 6 3 n5
+2 2 5 3	2 1 2 py	y 2 2 j12	j35 j6! j!@ g!
+<S Ngelik>
+! ! ! !	# @ ! @	! 2 2 j35	j6! j!6 ! n5
+! ! ! !	# @ ! p6	@ ! 5 3	6 5 3 n2
+2 2 2 j35	j6! j!6 ! p5	j65 6 @ !	@ 6 3 n5
+j6! @ j6! @	j6! j@6 j!@ p!	j@! @ ! 6	@ ! 6 g5 ]

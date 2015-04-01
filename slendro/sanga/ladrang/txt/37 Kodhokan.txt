@@ -1,0 +1,12 @@
+<F Ladrang>
+<T Kodhokan>
+<L slendro>
+<P sanga>
+[t 1 1 y	y 2 2 n1	1 t t py	y 2 2 n1
+1 2 2 p1	1 2 2 n1	1 2 2 p1	1 y y gt
+t 2 2 1	1 y y nt	t 2 2 p1	1 y y nt
+t 2 2 p1	1 y y nt	2 3 2 p1	y t e gt
+t 1 1 2	2 1 1 ny	y 1 1 pt	t 1 1 ny
+y 1 1 p2	2 1 1 ny	2 3 2 p1	y t e gt
+t 3 2 3	5 6 3 n5	5 3 2 p3	5 6 3 n5
+5 3 2 p3	5 6 3 n5	2 3 2 p1	y t e gt ]

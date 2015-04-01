@@ -1,0 +1,12 @@
+<F Ladrang>
+<T Koncang>
+<L slendro>
+<P sanga>
+<S Buka>
+t 3 3 2	2 3 3 5	5 2 2 1	1 y y gt
+<S Ompak>
+[t e e w	w e e nt	t 2 2 p3	3 1 1 ny
+y 3 3 p2	2 3 3 n5	5 2 2 p1	1 y y gt ]
+j<S Ngelik>
+56 j!@ j56 j!@	j56 j!@ j!6 n5	j56 j!@ j56 j!@	j56 j!@ j!6 n5
+5 3 3 p2	2 3 3 n5	5 2 2 p1	1 y y gt ]

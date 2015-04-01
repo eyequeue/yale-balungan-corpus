@@ -1,0 +1,14 @@
+<F Ladrang>
+<T Sri Rinengga>
+<L slendro>
+<P manyura>
+<S Buka>
+
+<S Ompak>
+2 1 2 y	2 3 2 n1	3 5 3 p2	2 1 2 ny
+2 2 2 p3	5 6 5 n3	6 5 3 p2	2 1 2 gy
+<S Ngelik>
+[2 1 2 y	2 3 2 n1	3 5 3 p2	2 1 2 n6
+3 5 6 p!	6 5 3 n2	! @ ! p6	2 1 2 gy
+3 3 3 3	6 5 3 n2	5 3 2 p1	3 2 1 ny
+2 2 2 p3	5 6 5 n3	6 5 3 p2	2 1 2 gy ]

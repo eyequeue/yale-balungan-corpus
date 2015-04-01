@@ -1,0 +1,12 @@
+<F Ladrang>
+<T Asri>
+<L slendro>
+<P sanga>
+[t y y t	t 3 3 n2	2 3 3 p2	2 1 1 ny
+y 1 1 py	y 2 2 n1	1 2 2 p1	1 y y gt
+t y y t	t 3 3 n2	2 3 3 p2	2 1 1 ny
+y 1 1 py	y 2 2 n1	1 2 2 p1	1 @ @ gg!
+<S Ngelik>
+! # # @	@ 6 6 n5	5 ! ! p6	6 5 5 n6
+6 3 3 p5	5 2 2 n1	1 2 2 p1	1 y y gt ]
+

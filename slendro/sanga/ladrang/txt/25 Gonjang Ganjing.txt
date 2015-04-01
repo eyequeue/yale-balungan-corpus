@@ -1,0 +1,14 @@
+<F Ladrang>
+<T Gonjang-Ganjing>
+<L slendro>
+<P sanga>
+<S Buka>
+t 2 2 1	1 2 2 1	2 2 1 1	1 y y gt
+<S Ompak>
+[t 2 2 1	1 y y nt	t 2 2 p5	5 2 2 n1
+1 2 2 p1	1 2 2 n1	1 2 2 p1	1 y y gt
+t 2 2 1	1 y y nt	t 2 2 p5	5 2 2 n1
+1 2 2 p1	1 2 2 n1	1 2 2 p1	1 @ @ g!
+<S Ngelik>
+! # # @	@ 6 6 n5	5 ! ! p6	6 5 5 n6
+6 5 5 p6	6 3 3 n5	5 2 2 p1	1 y y gt ]

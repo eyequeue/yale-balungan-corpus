@@ -1,0 +1,19 @@
+<F Ladrang>
+<T Darmabakti>
+<L slendro>
+<P sanga>
+<S Buka>
+t t t 2	2 1 y t	t 2 2 1	y t e gt
+<S Ompak>
+2 3 2 1	2 1 y nt	1 1 2 p1	t y 1 n2
+3 2 3 p5	6 5 3 n2	5 3 2 p1	y t e gt
+<S Ngelik>
+[2 3 2 1	2 1 y nt	1 1 2 p1	t y 1 n2
+2 2 2 p3	5 6 ! n6	@ ! 6 5	5 3 1 g2
+2 2 2 3	5 5 6 n5	! 6 5 p6	5 3 1 n2
+1 1 1 p1	2 1 y nt	t 2 2 p1	y t e gt ]
+<S Ketawang Mudajati>
+[2 3 5 3	2 1 2 ny	2 3 2 p1	y t e gt ]
+<S Ngelik>
+t t 5 5	2 3 5 n6	@ # @ p!	6 5 3 g5
+! 6 5 6	5 3 2 n1	3 5 3 p2	2 1 y gt ]

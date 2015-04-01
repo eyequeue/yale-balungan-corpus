@@ -1,0 +1,21 @@
+<F Ladrang>
+<T Sri Karongron>
+<L slendro>
+<P sanga>
+<S Buka>
+t 2 2 1	1 2 2 1	2 2 1 1	1 y y gt
+<S Ompak>
+<S Lancar>
+[2 1 1 y	2 1 6 n5	6 ! 6 p5	2 3 2 n1
+5 2 3 p5	6 ! 6 n5	3 2 1 py	2 1 y gt ]
+<S Ciblon>
+[t 2 2 1	1 2 2 y	y 2 2 1	1 y y nt
+6 6 6 6	@ ! 6 p5	! 6 5 6	5 3 2 n1
+5 5 5 5	6 ! 6 jp52	j56 j!2 j56 j!2	j56 j!@ j!6 n5
+2 2 5 3	2 1 2 py	y 2 2 1	1 y y gt
+<S Ngelik>
+		t 2 2 j12	j35 j6! j!@ g!
+! ! ! !	# @ ! @	@ @ 2 j35	j6! j!6 ! n5
+! ! ! !	# @ ! p6	@ ! 5 3	6 5 3 n2
+2 2 2 3	5 6 3 jp52	j56 j!2 j56 j!2	j56 j!@ j!6 n5
+2 2 5 3	2 1 2 py	y 2 2 1	1 y y gt ]

@@ -1,0 +1,11 @@
+<F Ladrang>
+<T Setrajantur>
+<L slendro>
+<P sanga>
+<S Buka>
+t 5 5 5	5 3 1 2	1 2 3 5	2 1 y gt
+
+[t 2 2 3	3 5 5 n6	6 2 2 p1	1 y y nt
+! 6 5 p!	5 6 ! n@	# @ # p@	# @ # g!
+! 6 3 5	5 6 ! n@	# @ # p@	# @ # n!
+! 5 5 p5	5 3 1 n2	1 2 3 p5	2 1 y gt ]

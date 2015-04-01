@@ -1,0 +1,12 @@
+<F Ladrang>
+<T Bedru>
+<L slendro>
+<P sanga>
+<S Buka>
+t y 1 2	1 y e t	e w e e	e y e gt
+
+[1 y 1 2	1 y e nt	1 y 1 p2	1 y e nt
+1 y 1 p2	1 y e nt	1 y 2 p1	y t y g1
+j12 j21 j12 jp21	j12 j21 j25 n6	j62 j21 j12 jp21	j12 j21 j25 n6
+j62 j21 j12 jp21	j12 j21 j2y nt	e w e pe	e y e gt ]
+

@@ -1,0 +1,14 @@
+<F Ladrang>
+<T Kembang Tanjung>
+<L slendro>
+<P sanga>
+<S Buka>
+5 2 2 1	1 2 2 1	2 2 1 1	1 y y gt
+<S Ompak>
+[t 2 2 3	3 2 2 n1	1 2 2 py	y 2 2 n1
+1 2 2 py	y 2 2 n1	1 2 2 p1	1 y y gt
+t 2 2 3	3 2 2 n1	1 2 2 py	y 2 2 n1
+1 2 2 py	y 2 2 n1	1 2 2 p1	1 5 5 g6
+<S Ngelik>
+6 5 5 6	6 @ @ n!	! @ @ p6	6 @ @ n!
+! @ @ p6	6 @ @ n!	! @ @ p!	! 6 6 g5 ]

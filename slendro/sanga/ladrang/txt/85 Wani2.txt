@@ -1,0 +1,15 @@
+<F Ladrang>
+<T Wani-Wani>
+<L slendro>
+<P sanga>
+<S Buka gendèr>
+2 2 2 2	2 2 2 2	2 2 2 2	2 2 2 2
+2 t t e	e t t w	w y y e	e y y gt
+<S Irama dadi>
+t e e y	y e e nt	t e e py	y e e n5
+5 2 2 p3	3 5 5 n3	3 6 6 p5	5 3 3 g2
+<S Irama wilet>
+[2 5 5 3	3 5 5 n2	2 5 5 p3	3 5 5 n2
+j36 j52 j36 jp52	j36 j52 j35 n6	j66 j6@ j#@ jp!#	j@6 j53 j23 g5
+5 ! ! 6	6 ! ! n5	5 ! ! p6	6 ! ! n5
+5 2 2 p3	3 5 5 n3	3 6 6 p5	5 3 3 g2 ]
