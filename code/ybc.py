@@ -5,18 +5,29 @@ import os
 import re
 import sys
 
+'''
+TO DO:
+find out from Sarah if the kenong plays with the gong even when it isn't notated. (Maho seems to say yes) -- in general, how much can we trust the notation when it comes to nong/pul
+are there cases where the nong/pul plays a different pitch than the balungan pitch?
+'''
+
+
 pitchCodesIn = ['1','2','3','4','5','6','7','q','w','e','r','t','y','u','!','@','#','\$','%','\^','&',]
 pitchCodesOut = [' b1 ',' b2 ',' b3 ',' b4 ',' b5 ',' b6 ',' b7 ',' a1 ',' a2 ',' a3 ',' a4 ',' a5 ',' a6 ',' 7a ',' c1 ',' c2 ',' c3 ',' c4 ',' c5 ',' c6 ',' c7 ']
-
-ybcCorpus = list()  # list of ybcBalungan instances
 
 class ybcBalungan:
     def __init__(self, filename):
         self.filename = filename
         self.shortname = re.sub('/.*/(.*).txt','\g<1>',filename)
-        self.gatras = list() # list of ybcGatra instances
+        self.gatras = list() # FLAT list of ybcGatra instances (all sections together)
+        self.sections = list() # list of ybcSection instances (includes another copy of gatra list)
         self.scale = ''
         self.mode = ''
+
+class ybcSection:
+    def __init__(self):
+        self.gatras = list() # list of ybcGatra instances
+        self.name = ''
 
 class ybcGatra:
     def __init__(self):
@@ -36,7 +47,7 @@ class ybcNote:                # class for balungan notes
         self.beatOffset = 0
         
     def __str__(self):
-        return 'pitch = {0}, beat = {1}, gong = {2}, nong = {3}, pul = {4}'.format(self.pitch, self.beat, self.gong, self.nong, self.pul)
+        return 'pitch = {:2} | beat = {:<5} | gong = {:1} | nong = {:1} | pul = {:1}'.format(self.pitch, self.beat, self.gong, self.nong, self.pul)
 
 class ybcCorpus:
     def __init__(self, ybcPathname):
@@ -60,19 +71,32 @@ class ybcCorpus:
             if theFile[-16:] == 'Sala Minulya.txt': continue # this file has a problem
 
             thisBalungan = ybcBalungan(theFile)
+            thisSection = ybcSection()
+            thisSection.name = 'unnamed'
+            thisBalungan.sections.append(thisSection)
+
             f = open(theFile, 'r')
             for l in f:
                 l = l.strip()
+                
+                # treat blank lines as section breaks
         
-                if len(l) == 0: continue
+                if len(l) == 0: 
+                    l = '<S>'
                 tag = re.search('<(.*)>', l)
-        #         print l
                 if tag:      # m is True if the current line consists of a <tag in angle brackets>
                     metadata = string.rsplit(tag.groups(1)[0],' ')   # TK: use this metadata
                     if metadata[0] == 'P':
                         thisBalungan.mode = metadata[1]
                     if metadata[0] == 'L':
                         thisBalungan.scale = metadata[1]
+                    if metadata[0] == 'S':
+                        if len(metadata) == 1: metadata.append('unnamed')
+                        if len(thisBalungan.gatras) > 0:
+                            thisSection = ybcSection()
+                            thisBalungan.sections.append(thisSection)
+                        thisSection.name = ' '.join(metadata[1:])
+
                 else:    # we've got plain data
 
                     # do some basic cleanup
@@ -115,7 +139,6 @@ class ybcCorpus:
                         thisGatra = ybcGatra()
                         
                         # parse pitch characters, adding spaces before and after
-                        old = str(gs)
                         for beat in range(len(gs)):
 
 
@@ -128,14 +151,13 @@ class ybcCorpus:
                                 gs[beat] = newtext
                                 noteCount += subs
                     
-        #                   print noteCount, gs[i], gs, old
                             # get rid of any extra spaces we just made
                             gs[beat] = re.sub('^ ','',gs[beat])  # eliminate leading spaces
                             gs[beat] = re.sub(' $','',gs[beat])  # eliminate trailing spaces
                             gs[beat] = re.sub('  ',' ',gs[beat]) # consolidate double spaces
                     
                             beatContents = string.rsplit(gs[beat], ' ')
-                    
+                            
                             # trivial case: a rest only
                             if noteCount == 0:
                                 theNote = ybcNote('',beat)
@@ -161,7 +183,7 @@ class ybcCorpus:
                             elif noteCount == 2:
                                 thisNote = ybcNote('',beat)
                                 while beatContents != []:
-                                    if beatContents[0][0] not in string.digits:
+                                    if beatContents[0][-1] not in string.digits:
                                         if re.search('n',beatContents[0]): 
                                             thisNote.nong = True
                                         if re.search('p',beatContents[0]): 
@@ -195,8 +217,9 @@ class ybcCorpus:
                                 thisGatra.notes.append(thisNote)
                                     
 
-                        # now add theGatra to theBalungan
+                        # now add theGatra to theBalungan and theSection
                         thisBalungan.gatras.append(thisGatra)
+                        thisSection.gatras.append(thisGatra)
                  
             # add thisBalungan to the corpus
             self.balungans.append(thisBalungan)

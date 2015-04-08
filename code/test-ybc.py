@@ -9,10 +9,15 @@ import collections # provides Counter object
 # class ybcBalungan:
 #         .filename           complete path of source file
 #         .shortname          short version of file name (automatically generated)
-#         .gatras             list of ybcGatra instances
+#         .gatras             list of ybcGatra instances (FLAT list of ybcGatra instances (all sections together)
+#         .sections           list of ybcSection instances (includes embedded gatra list)
 #         .scale              (automatically generated)
 #         .mode               (automatically generated)
 # 
+# class ybcSection:
+#         .gatras             list of ybcGatra instances
+#         .name               name of section (from <S> tag in encoding)
+#                  
 # class ybcGatra:
 #         .notes              list of ybcNote instances
 #         
@@ -28,12 +33,13 @@ import collections # provides Counter object
 # download the corpus at https://github.com/eyequeue/yale-balungan-corpus/archive/master.zip
 corpus = ybc.ybcCorpus('/Users/iq2/research/corpus/gamelan/yale-balungan-corpus')
 
-gongTally = collections.Counter()
-allTally = collections.Counter()
-
 for thisBalungan in corpus.balungans:
-#    if thisBalungan.mode != 'manyura':
-#        continue
-    for thisGatra in thisBalungan.gatras:
-        for thisNote in thisGatra.notes:
-            print thisBalungan.filename, thisNote.pitch
+
+        output = '\n\n' + thisBalungan.filename + '\n\n'
+        for thisGatra in thisBalungan.gatras:
+            if len(thisGatra.notes) != 4:
+                print output
+                for thisNote in thisGatra.notes:
+                    print thisNote
+                output = ''
+        
