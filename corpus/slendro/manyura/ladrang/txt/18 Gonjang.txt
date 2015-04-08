@@ -4,11 +4,9 @@
 <P manyura>
 <S Buka>
 3 3 3 2	2 3 3 2	3 3 2 2	2 1 1 gy
-
 <S Ompak>
 [6 3 3 2	2 1 1 ny	y 3 3 p6	6 3 3 n2
 2 3 3 p2	2 3 3 n2	2 3 3 p2	2 1 1 gy
-
 <S Ngelik>
 y 3 3 2	2 1 1 ny	y 3 3 p!	1 @ @ n6
 6 5 5 p6	6 @ @ n!	! @ @ p6	6 5 5 g3

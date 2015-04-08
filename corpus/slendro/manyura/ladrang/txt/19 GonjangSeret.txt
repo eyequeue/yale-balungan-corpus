@@ -4,7 +4,6 @@
 <P manyura>
 <S Buka>
 . 3 . 2	. 3 . 2	3 3 2 2	. 1 . gy
-
 <S Ompak>
 [. 3 . 2	. 1 . ny	. 3 . p6	. 3 . n2
 . 3 . p2	. 3 . n2	. 3 . p2	. 1 . gy ]

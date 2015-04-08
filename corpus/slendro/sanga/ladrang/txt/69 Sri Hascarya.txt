@@ -3,7 +3,7 @@
 <L slendro>
 <P sanga>
 <S Buka>
-t 5 ! 6	6 5 3 2
+		t 5 ! 6	6 5 3 2
 2 1 1 1	t y 1 2	2 y 2 1	y t e gt
 <S Irama dados>
 [_ t _ y	_ y _ t	_ t _ 2	_ 2 _ n1

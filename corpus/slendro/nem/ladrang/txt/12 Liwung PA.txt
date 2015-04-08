@@ -4,7 +4,7 @@
 <P nem>
 <C PA>
 <S Buka>
-2 1 y
+			  2 1 y
 y 1 1 2	2 1 1 y	y e y t	t e e gw
 
 [w t t y	y e e nw	w t t py	y e e nw

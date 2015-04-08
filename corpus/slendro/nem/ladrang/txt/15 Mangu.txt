@@ -4,7 +4,7 @@
 <P nem>
 <C Manis gong 2 ageng (or miscellaneous?)>
 <S Buka>
-w y y t
+			w y y t
 e t w e	t y 1 2	2 3 y t	t e e gw
 <S Ompak>
 [w t t y	y t t ne	e t t py	y t t ne

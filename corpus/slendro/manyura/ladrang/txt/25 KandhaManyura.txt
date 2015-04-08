@@ -3,13 +3,11 @@
 <L slendro>
 <P manyura>
 <S Buka>
-        	       	      e	e t y 1
+		_ _ _ e	e t y 1
 1 2 2 2	2 3 2 1	1 2 1 y	y t t ge
-
 <S Ompak>
 [e t t y	y t t ne	e 5 5 p3	3 2 2 n1
 1 2 2 p3	3 2 2 n1	1 2 2 py	y t t ge ]
-
 <S Ngelik>
 [3 5 5 6	6 5 5 n6	6 @ @ p!	! 6 6 n5
 5 6 6 3	3 @ @ n!	! @ @ p6	6 5 5 g3

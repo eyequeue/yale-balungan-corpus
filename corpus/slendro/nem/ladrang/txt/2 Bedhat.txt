@@ -3,7 +3,7 @@
 <L slendro>
 <P nem>
 <S Buka>
-w
+			      w
 w t t e	e t t w	w e t y	y t t ge
 <S Ladrang>
 [e 1 1 1	2 3 2 n1	t y 1 p1	2 3 2 n1

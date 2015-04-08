@@ -3,13 +3,11 @@
 <L slendro>
 <P manyura>
 <S Buka>
-        	       	       	1 1 3 2
+			1 1 3 2
 y y y y	y 2 2 1	1 2 2 3	3 5 5 g3
-
 <S Dados>
 [6 5 3 2	5 6 5 n3	6 5 3 p!	6 5 3 n2
 5 3 2 p1	3 5 3 n2	6 5 6 p!	6 5 2 g3 ]
-
 <S Ciblon>
 [6 5 3 2	5 6 5 3	6 5 3 2	5 6 5 n3
 6 6 6 6	@ # @ p!	# @ 6 3	6 5 3 n2

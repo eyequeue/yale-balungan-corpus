@@ -4,6 +4,7 @@
 <P manyura>
 <S Buka kendhang (kados Carabalen)>
 6 6 6 n6	6 6 6 n6	6 6 6 n6	6 6 6 g6
+
 [5 1 5 5	5 ! 5 3	5 ! 5 5	5 ! 5 n6
 5 ! 5 5	5 ! 5 p3	5 ! 5 5	5 ! 5 n6
 5 ! 5 5	5 ! 5 p3	5 ! 5 5	5 ! 5 n6

@@ -3,7 +3,7 @@
 <L slendro>
 <P nem>
 <S Buka>
-w	w e t y
+		      w	w e t y
 y 1 2 2	3 2 1 y	y e y t	t e e gw
 <S Ompak>
 [w e e t	t e e nw	w 1 1 py	y e e nt
