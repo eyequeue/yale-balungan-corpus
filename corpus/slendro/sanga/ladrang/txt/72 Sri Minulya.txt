@@ -9,5 +9,5 @@ t 1 1 y	y 1 1 nt	t 1 1 py	y 1 1 nt
 t 1 1 py	y 1 1 nt	t 1 1 py	y 1 1 gt
 [t y 1 t	2 3 2 n1	3 5 3 p2	2 1 2 n6
 6 6 6 p6	5 5 6 n!	 @ ! p@	@ ! 6 g5
-! 6 5 6	5 3 2 n1	4 5 @ p!	5 2 1 ny
+! 6 5 6	5 3 2 n1	5 6 @ p!	5 2 1 ny
 2 2 2 p2	5 3 2 n1	y y 2 p1	y t e gt ]

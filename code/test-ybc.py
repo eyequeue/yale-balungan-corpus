@@ -32,15 +32,8 @@ gongTally = collections.Counter()
 allTally = collections.Counter()
 
 for thisBalungan in corpus.balungans:
-    if thisBalungan.mode != 'manyura':
-        continue
+#    if thisBalungan.mode != 'manyura':
+#        continue
     for thisGatra in thisBalungan.gatras:
         for thisNote in thisGatra.notes:
-            if thisNote.gong:
-                gongTally[thisNote.pitch] += 1
-            allTally[thisNote.pitch] += 1
-            
-                
-
-print gongTally
-print allTally
+            print thisBalungan.filename, thisNote.pitch
