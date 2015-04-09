@@ -3,10 +3,11 @@
 <L slendro>
 <P manyura>
 <S Buka>
-1 1 1 2	2 1 1 y	y e y t	t e e gw
+                                             y
+. 1 . 2	. 1 . y	. e y t	. e . gw
 <S Ompak>
-[w t t y	y e e w	w t t py	y e e nw
-w t t py	y 1 1 ny	y 2 2 p1	1 2 2 gy
-<C blank line>
-6 6 5 3	2 1 2 ny	6 6 5 p3	2 1 2 ny
-y e e t	t y y nt	t e e pt	t e e gw ]
+[. t . y	. e . w	. t . py	. e . nw
+. t . py	. 1 . ny	. 2 . p1	. 2 . gy
+
+. 6 5 3	2 1 2 ny	. 6 5 p3	2 1 2 ny
+. e . t	. y . nt	. e . pt	. e . gw ]

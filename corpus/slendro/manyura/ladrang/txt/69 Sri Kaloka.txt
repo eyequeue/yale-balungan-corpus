@@ -3,7 +3,7 @@
 <L slendro>
 <P manyura>
 <S Buka>
-		_ _ _ y	. 1 2 3	
+		y	. 1 2 3	
 . 3 . 3	. y . 1	. 2 . 3	. 1 . g2
 
 [. 3 . 2	. 5 . n3	. ! . p6	. 5 . n3

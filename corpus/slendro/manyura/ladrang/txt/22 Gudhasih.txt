@@ -3,8 +3,8 @@
 <L slendro>
 <P manyura>
 <S Ompak>
-[y 2 2 1	1 2 2 ny	y 2 2 p1	1 2 2 ny
-y 3 3 p6	6 3 3 n2	2 3 3 p2	2 1 1 gy ]
+[. 2 . 1	. 2 . ny	. 2 . p1	. 2 . ny
+. 3 . p6	. 3 . n2	. 3 . p2	. 1 . gy ]
 <S Ngelik>
-6 5 5 6	6 5 5 n6	6 @ @ p!	! 3 3 n2
-2 6 6 p!	! 3 3 n2	2 3 3 p2	2 1 1 gy ]
+. 5 . 6	. 5 . n6	. @ . p!	. 3 . n2
+. 6 . p!	. 3 . n2	. 3 . p2	. 1 . gy ]

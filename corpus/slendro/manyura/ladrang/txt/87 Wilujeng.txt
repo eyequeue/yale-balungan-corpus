@@ -3,10 +3,10 @@
 <L slendro>
 <P manyura>
 <S Buka>
-y 1 3 2	y 1 2 3	1 1 3 2	2 1 2 gy
+. 1 3 2	y 1 2 3	1 1 3 2	. 1 2 gy
 <S Ompak> 
-[2 1 2 3	2 1 2 ny	3 3 3 p3	6 5 3 n2
+[2 1 2 3	2 1 2 ny	3 3 . p.	6 5 3 n2
 5 6 5 p3	2 1 2 ny	2 1 2 p3	2 1 2 gy ]
 <S Ngelik>
-y y 6 y	! 5 ! n6	3 5 6 p!	6 5 3 n2
-6 6 6 p6	! 5 ! n6	! ! 3 p2	2 1 2 gy ]
+. . 6 .	! 5 ! n6	3 5 6 p!	6 5 3 n2
+6 6 . p.	! 5 ! n6	! ! 3 p2	. 1 2 gy ]
