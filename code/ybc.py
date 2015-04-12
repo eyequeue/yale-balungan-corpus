@@ -11,9 +11,8 @@ find out from Sarah if the kenong plays with the gong even when it isn't notated
 are there cases where the nong/pul plays a different pitch than the balungan pitch?
 '''
 
-
-pitchCodesIn = ['1','2','3','4','5','6','7','q','w','e','r','t','y','u','!','@','#','\$','%','\^','&',]
-pitchCodesOut = [' b1 ',' b2 ',' b3 ',' b4 ',' b5 ',' b6 ',' b7 ',' a1 ',' a2 ',' a3 ',' a4 ',' a5 ',' a6 ',' 7a ',' c1 ',' c2 ',' c3 ',' c4 ',' c5 ',' c6 ',' c7 ']
+pitchCodesIn = ['1','2','3','4','5','6','7','q','w','e','r','t','y','u','!','@','#','\$','%','\^','&','\.']
+pitchCodesOut = ['b1 ','b2 ','b3 ','b4 ','b5 ','b6 ','b7 ','a1 ','a2 ','a3 ','a4 ','a5 ','a6 ','7a ','c1 ','c2 ','c3 ','c4 ','c5 ','c6 ','c7 ','. ']
 
 class ybcBalungan:
     def __init__(self, filename):
@@ -33,24 +32,47 @@ class ybcGatra:
     def __init__(self):
         self.notes = list() # list of ybcNote instances
         
-class ybcNote:                # class for balungan notes
-    def __init__(self, pitch, beat):
-    
-        # pitch and beat must be identified
-        self.pitch = pitch
-        self.beat = beat
+    def __str__(self):
+        output = ''
+        for n in self.notes: output += n.__str__() + '\n'
+        return output
         
-        # set defaults for other variables
+class ybcNote:                # class for balungan notes
+    def __init__(self, pitch='', beat='-1', encoded=''):
+        global prevPitch
+    
+        # set defaults 
+        self.beat = beat
+        self.restDot = False
         self.gong = False
         self.nong = False
         self.pul = False
-        self.beatOffset = 0
+        
+        if encoded == '':
+            self.pitch = pitch
+        else:
+            while encoded[0] in 'gnp':
+                if encoded[0] == 'g':
+                    self.gong = True
+                if encoded[0] == 'n':
+                    self.nong = True
+                if encoded[0] == 'p':
+                    self.pul = True
+                encoded = encoded[1:]
+            if encoded == '.':
+                self.pitch = prevPitch
+            else:
+                self.pitch = encoded
+            prevPitch = self.pitch
+            
         
     def __str__(self):
-        return 'pitch = {:2} | beat = {:<5} | gong = {:1} | nong = {:1} | pul = {:1}'.format(self.pitch, self.beat, self.gong, self.nong, self.pul)
+        return 'pitch = {:2} | beat = {:<5} | rest = {:1} | gong = {:1} | nong = {:1} | pul = {:1}'.format(self.pitch, self.beat, self.restDot, self.gong, self.nong, self.pul)
 
 class ybcCorpus:
     def __init__(self, ybcPathname):
+    
+        global prevPitch
 
         self.balungans = list()
         
@@ -67,13 +89,15 @@ class ybcCorpus:
     
 
         for theFile in corpusFiles:
-
-            if theFile[-16:] == 'Sala Minulya.txt': continue # this file has a problem
+        
+            if theFile[-3:] != 'txt': continue
 
             thisBalungan = ybcBalungan(theFile)
             thisSection = ybcSection()
             thisSection.name = 'unnamed'
             thisBalungan.sections.append(thisSection)
+            
+            prevPitch = ''
 
             f = open(theFile, 'r')
             for l in f:
@@ -150,12 +174,15 @@ class ybcCorpus:
                                 (newtext, subs) = re.subn(pitchCodesIn[j], pitchCodesOut[j], gs[beat])
                                 gs[beat] = newtext
                                 noteCount += subs
-                    
-                            # get rid of any extra spaces we just made
-                            gs[beat] = re.sub('^ ','',gs[beat])  # eliminate leading spaces
-                            gs[beat] = re.sub(' $','',gs[beat])  # eliminate trailing spaces
-                            gs[beat] = re.sub('  ',' ',gs[beat]) # consolidate double spaces
-                    
+                            gs[beat] = re.sub('_','',gs[beat]) # underscores represent empty spaces (real rests)
+                            gs[beat] = re.sub('j','',gs[beat]) # get rid of stray j's from earlier encoding system
+                            gs[beat] = re.sub('k','',gs[beat]) # get rid of stray k's from earlier encoding system
+                            gs[beat] = re.sub(' $','',gs[beat])  # eliminate trailing space
+                            
+                            # this next thing is a kludge - G is a mark for 'gong suwukan'
+                            gs[beat] = re.sub('G','',gs[beat]) # get rid of stray k's from earlier encoding system
+                            
+
                             beatContents = string.rsplit(gs[beat], ' ')
                             
                             # trivial case: a rest only
@@ -164,58 +191,36 @@ class ybcCorpus:
                         
                             # simplest non-trivial case: one note in the beat
                             elif noteCount == 1:
-                                if len(beatContents) == 1:
-                                    thisNote = ybcNote(beatContents[0], beat)
-                                elif len(beatContents) == 2:
-                                    # the first item in beatContents is a gong marker
-                                    thisNote = ybcNote(beatContents[1], beat)
-                                    if re.search('n',beatContents[0]): 
-                                        thisNote.nong = True
-                                    if re.search('p',beatContents[0]): 
-                                        thisNote.pul = True
-                                    if re.search('g',beatContents[0]): 
-                                        thisNote.gong = True
-                                else:
-                                    sys.exit('syntax error in '+filename+': '+l)
-                                thisGatra.notes.append(thisNote)
+                                thisGatra.notes.append(ybcNote(beat = beat, encoded=beatContents[0]))
                             
-                            # with two notes in the beat we assume they're equal
+                            # with two or four notes in the beat we assume they're equal
                             elif noteCount == 2:
-                                thisNote = ybcNote('',beat)
-                                while beatContents != []:
-                                    if beatContents[0][-1] not in string.digits:
-                                        if re.search('n',beatContents[0]): 
-                                            thisNote.nong = True
-                                        if re.search('p',beatContents[0]): 
-                                            thisNote.pul = True
-                                        if re.search('g',beatContents[0]): 
-                                            thisNote.gong = True
-                                        beatContents.pop(0)
-                                        continue
-                                    else:
-                                        thisNote.pitch = beatContents[0]
-                                        thisGatra.notes.append(thisNote)
-                                        if len(beatContents) > 1: 
-                                            thisNote = ybcNote('',beat + 0.5)
-                                        beatContents.pop(0)
-                                        continue
+                                thisGatra.notes.append(ybcNote(beat = beat, encoded=beatContents[0]))
+                                thisGatra.notes.append(ybcNote(beat = beat+0.5, encoded=beatContents[1]))
                     
-                            # with more than two notes we only look at the first note                
-                            else: 
-                                sys.stderr.write('WARNING: Ignoring all but first note in a beat with more than 2 subdivisions.\n')
-                                sys.stderr.write('File: '+thisBalungan.filename+'\n')
-                                thisNote = ybcNote('',beat)
-                                if beatContents[0][0] not in string.digits:
-                                    if re.search('n',beatContents[0]): 
-                                        thisNote.nong = True
-                                    if re.search('p',beatContents[0]): 
-                                        thisNote.pul = True
-                                    if re.search('g',beatContents[0]): 
-                                        thisNote.gong = True
+                            elif noteCount == 4:
+                                thisGatra.notes.append(ybcNote(beat = beat, encoded=beatContents[0]))
+                                thisGatra.notes.append(ybcNote(beat = beat+0.25, encoded=beatContents[1]))
+                                thisGatra.notes.append(ybcNote(beat = beat+0.5, encoded=beatContents[2]))
+                                thisGatra.notes.append(ybcNote(beat = beat+0.75, encoded=beatContents[3]))
+                    
+                            # with three notes the first character must specify the rhythm
+                            elif noteCount == 3: 
+                                if beatContents[0][0] not in 'AD':
+                                    sys.stderr.write('WARNING: Ignoring all but first note in a beat with 3 subdivisions and no rhythm specifier.\n')
+                                    sys.stderr.write('File: '+thisBalungan.filename+'\n')
+                                    thisGatra.notes.append(ybcNote(beat = beat, encoded=beatContents[0]))
                                 else:
-                                    thisNote.pitch = beatContents[0]
-                                thisGatra.notes.append(thisNote)
-                                    
+                                    if beatContents[0][0] == 'D':  # D is for dactyl
+                                        beatContents[0] = beatContents[0][1:]
+                                        thisGatra.notes.append(ybcNote(beat = beat, encoded=beatContents[0]))
+                                        thisGatra.notes.append(ybcNote(beat = beat+0.5, encoded=beatContents[1]))
+                                        thisGatra.notes.append(ybcNote(beat = beat+0.75, encoded=beatContents[2]))
+                                    elif beatContents[0][0] == 'A':  # A is for anapest
+                                        beatContents[0] = beatContents[0][1:]
+                                        thisGatra.notes.append(ybcNote(beat = beat, encoded=beatContents[0]))
+                                        thisGatra.notes.append(ybcNote(beat = beat+0.25, encoded=beatContents[1]))
+                                        thisGatra.notes.append(ybcNote(beat = beat+0.5, encoded=beatContents[2]))
 
                         # now add theGatra to theBalungan and theSection
                         thisBalungan.gatras.append(thisGatra)

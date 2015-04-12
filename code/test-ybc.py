@@ -1,5 +1,6 @@
 import ybc
 import collections # provides Counter object
+import sys
 
 # Data structures provided by the ybc module:
 # 
@@ -22,9 +23,12 @@ import collections # provides Counter object
 #         .notes              list of ybcNote instances
 #         
 # class ybcNote:
-#         .pitch = pitch      octave letter + scale degree number
+#         .pitch              octave letter + scale degree number
 #         .beat               0,1,2,3 plus decimals when beat is subdivided
-#         
+#
+#         .restDot            True/False depending on whether the notation has a rest dot
+#                             (in this case .pitch has the value of the previously sounding pitch)     
+#
 #         .gong               True/False depending on whether gong is struck on this note
 #         .nong               True/False depending on whether nong is struck on this note
 #         .pul                True/False depending on whether pul is struck on this note
@@ -33,13 +37,13 @@ import collections # provides Counter object
 # download the corpus at https://github.com/eyequeue/yale-balungan-corpus/archive/master.zip
 corpus = ybc.ybcCorpus('/Users/iq2/research/corpus/gamelan/yale-balungan-corpus')
 
-for thisBalungan in corpus.balungans:
+pitchUnigrams = collections.Counter()
 
-        output = '\n\n' + thisBalungan.filename + '\n\n'
-        for thisGatra in thisBalungan.gatras:
-            if len(thisGatra.notes) != 4:
-                print output
-                for thisNote in thisGatra.notes:
-                    print thisNote
-                output = ''
+for b in corpus.balungans:
+	for g in b.gatras:
+		for n in g.notes:
+			pitchUnigrams[n.pitch] += 1
+			
+print pitchUnigrams
+			
         
