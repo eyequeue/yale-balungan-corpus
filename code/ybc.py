@@ -61,6 +61,7 @@ class ybcNote:                # class for balungan notes
                 encoded = encoded[1:]
             if encoded == '.':
                 self.pitch = prevPitch
+                self.restDot = True
             else:
                 self.pitch = encoded
             prevPitch = self.pitch

@@ -5,7 +5,6 @@
 <C pothok>
 <S Buka>
 . ! ! !	# @ 6 5	3 3 3 5	6 3 5 g6
-
 <S bracket start>
 3 5 6 !	6 5 3 2	2 2 1 y	3 5 3 n2
 2 2 2 3	5 6 5 p3	2 2 1 y	3 5 3 n2
@@ -13,7 +12,6 @@
 @ 6 @ !	# @ 6 p5	3 3 . 5	6 3 5 g6
 <S bracket end>
 <S Suwuk>
-<S bracket start>
 3 5 6 !	6 5 3 2	2 2 1 y	3 5 3 n2
 2 2 2 3	5 6 5 p3	2 2 1 y	3 5 3 n2
 2 2 2 3	5 6 5 p3	5 2 5 3	@ # @ n!

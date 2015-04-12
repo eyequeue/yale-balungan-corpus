@@ -1,6 +1,7 @@
 import ybc
 import collections # provides Counter object
 import sys
+import kl
 
 # Data structures provided by the ybc module:
 # 
@@ -37,13 +38,27 @@ import sys
 # download the corpus at https://github.com/eyequeue/yale-balungan-corpus/archive/master.zip
 corpus = ybc.ybcCorpus('/Users/iq2/research/corpus/gamelan/yale-balungan-corpus')
 
-pitchUnigrams = collections.Counter()
+modes = ['nem','sanga','manyura']			
+unigrams = dict()
+for m in modes:
+	unigrams[m] = collections.Counter()
 
 for b in corpus.balungans:
 	for g in b.gatras:
 		for n in g.notes:
-			pitchUnigrams[n.pitch] += 1
-			
-print pitchUnigrams
+			if not n.pul: continue
+			for m in modes:
+				if b.mode == m:
+					unigrams[m][n.pitch] += 1
+		
+for m in modes:
+	print m, unigrams[m]
+	for p in sorted(unigrams[m]):
+		print p, unigrams[m][p]
+	
+for m1 in modes:
+	for m2  in modes:
+		print "{} -> {}: {}".format(m1, m2, kl.KL(unigrams[m1],unigrams[m2]))
+		
 			
         

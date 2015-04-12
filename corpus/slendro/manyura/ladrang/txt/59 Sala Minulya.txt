@@ -1,7 +1,8 @@
 <F Ladrang>
 <T Sala Minulya>
 <L slendro>
-<P manyura> <C RL Martopangrawit>
+<P manyura>
+<C RL Martopangrawit>
 <S Buka>
 3	3 1 3 2	y 1 2 3	2 1 2 gy
 <S Irama dados>

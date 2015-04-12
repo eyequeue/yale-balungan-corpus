@@ -23,7 +23,7 @@ Do not use "j" and "k" to create beams. Instead, use the following system to ind
 
 Rests (dots) should be entered as periods.
 
-Where a left or right bracket appears in the PDF....
+Where a left or right bracket appears in the PDF.... (also say something about the ngelik situation)
 
 Where a star appears in the PDF.....
 
