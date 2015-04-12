@@ -9,7 +9,6 @@
 <S bracket start>
 . e . t	. e . nw	. 1 . py	. e . nt
 . e . pt	. y . nt	. 1 . py	. e . gw 
-<S bracket end>
 <S Ngelik>
 . 3 . 5	. 3 . n2	. 5 . p3	. 5 . n2
 . 5 . p3	. 5 . n2	. 5 . p3	. 1 . gy

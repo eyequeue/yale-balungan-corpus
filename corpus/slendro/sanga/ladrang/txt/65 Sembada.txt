@@ -9,7 +9,6 @@
 <S bracket start>
 . y . t	. 2 . n1	. 5 . p6	. 2 . n1
 . 3 . p2	. y . nt	. 2 . p1	. y . gt 
-<S bracket end>
 <S Ngelik>
 <E second ending:			. @ . g!>
 . # . @	. 6 . n5	. ! . p6	. 5 . n6

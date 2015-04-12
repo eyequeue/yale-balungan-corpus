@@ -8,7 +8,6 @@
 <S bracket start>
 . e . w	. e . nt	. 2 . p3	. 1 . ny
 . 3 . p2	. 3 . n5	. 2 . p1	. y . gt 
-<S bracket end>
 <S Ngelik>
 56 !@ 56 !@	56 !@ !6 n5	56 !@ 56 !@	56 !@ !6 n5
 . 3 . p2	. 3 . n5	. 2 . p1	. y . gt 

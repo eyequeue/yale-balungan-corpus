@@ -5,7 +5,6 @@
 <S bracket start>
 . 3 . 2	. 1 . ny	. 3 . p6	. 3 . n2
 . 3 . p1	. 3 . n2	. 3 . p2	. 1 . gy 
-<S bracket end>
 <S Ngelik>
 . 5 . 6	. 5 . n6	. @ . p!	. 3 . n2
 . 6 . p!	. 3 . n2	. 3 . p2	. 1 . gy 

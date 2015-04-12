@@ -5,6 +5,7 @@
 <S Buka>
 . 2 . 1	. 2 . 1	2 2 1 1	. y . gt
 <S Ompak>
+<S bracket start>
 . . t y	1 1 2 n1	3 5 3 p2	. 1 2 ny
 2 2 . p.	5 3 2 n1	2 3 2 p1	y t e gt
 . . t y	1 1 2 n1	3 5 3 p2	. 1 2 n6
