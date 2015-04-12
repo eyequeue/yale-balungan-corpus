@@ -4,8 +4,9 @@
 <P sanga>
 <S Buka>
 2	2 1 y t	2 2 3 2	1 1 2 g1
-
-[1 2 2 1	1 2 2 n1	1 3 3 p2	2 1 1 n6
-6 5 5 p6	6 5 5 n6	6 2 2 p1	1 y y gt
-t 2 2 1	1 y y nt	t 2 2 p1	1 6 6 n5
-5 6 6 p5	5 6 6 n!	! @ @ p6	6 2 2 g1 ]
+<S bracket start>
+. 2 . 1	. 2 . n1	. 3 . p2	. 1 . n6
+. 5 . p6	. 5 . n6	. 2 . p1	. y . gt
+. 2 . 1	. y . nt	. 2 . p1	. 6 . n5
+. 6 . p5	. 6 . n!	. @ . p6	. 2 . g1 
+<S bracket end>

@@ -6,14 +6,18 @@
 <S Buka>
 2	2 1 y t	2 y 2 1	2 y e gt
 <S Seseg>
-[2 y 2 1	2 y e nt	2 y 2 p1	2 y e nt
-2 y 2 p1	2 y e nt	2 y 2 1	2 y e gt ]
+<S bracket start>
+2 y 2 1	2 y e nt	2 y 2 p1	2 y e nt
+2 y 2 p1	2 y e nt	2 y 2 1	2 y e gt 
+<S bracket end>
 <S Tamban>
-[2 y 2 1	2 y e nt	2 y 2 p1	2 y e nt
-2 2 2 p2	2 2 3 n2	3 3 3 p3	2 3 5 g3
-! ! ! !	! ! 6 n5	! @ ! p6	5 3 1 n2
-1 y t pt	t y 1 n2	6 6 6 p3	5 6 ! g6
-j65 6 j65 p6	j65 6 ! n6	5 3 2 p2	2 3 5 n6
-j65 6 j65 p6	j65 3 1 n2	1 1 1 p1	@ ! 6 jg52
-j22 j56 j66 jp!@	j@@ ! 6 jn52	j22 j56 j66 jp!@	j@@ ! 6 n5
-j53 5 j53 p5	j53 2 1 n2	y y 2 p1	y t e gt ]
+<S bracket start>
+2 y 2 1	2 y e nt	2 y 2 p1	2 y e nt
+2 2 . p.	2 2 3 n2	3 3 . p.	2 3 5 g3
+! ! . .	! ! 6 n5	! @ ! p6	5 3 1 n2
+1 y t p.	t y 1 n2	6 6 . p3	5 6 ! g6
+.5 6 .5 p6	.5 6 ! n6	5 3 2 p.	2 3 5 n6
+.5 6 .5 p6	.5 3 1 n2	1 1 . p.	@ ! 6 g52
+.2 56 .6 p!@	.@ ! 6 n52	.2 56 .6 p!@	.@ ! 6 n5
+.3 5 .3 p5	.3 2 1 n2	y y 2 p1	y t e gt 
+<S bracket end>

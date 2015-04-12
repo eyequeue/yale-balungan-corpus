@@ -4,9 +4,11 @@
 <P sanga>
 <C MW>
 <S Buka>
-t 2 2 1	1 2 2 1	2 2 1 1	1 y y gt
+. 2 . 1	. 2 . 1	2 2 1 1	. y . gt
 
-[t 2 2 1	1 y y nt	t 2 2 p5	5 2 2 n1
-1 2 2 p1	1 2 2 n1	j1y jyt jty jpyt	jty jyt y g1
-1 2 2 1	1 5 5 n6	6 5 5 p6	6 3 3 n2
-2 2 2 jp35	j6! j!6 ! n5	5 2 2 p1	1 y y gt ]
+<S bracket start>
+. 2 . 1	. y . nt	. 2 . p5	. 2 . n1
+. 2 . p1	. 2 . n1	.y .t .y p.t	.y .t y g1
+. 2 . 1	. 5 . n6	. 5 . p6	. 3 . n2
+. 2 . p35	6! .6 ! n5	. 2 . p1	. y . gt 
+<S bracket end>

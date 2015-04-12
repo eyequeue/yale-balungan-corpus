@@ -5,8 +5,12 @@
 <S Buka>
 y	y e t y	. t e w	. e t gy
 <S>
-[1 y t e	w e t ny	1 y t pe	w e t ny
-2 2 . p.	w e t ny	t e t pw	t e t gy]
+<S bracket start>
+1 y t e	w e t ny	1 y t pe	w e t ny
+2 2 . p.	w e t ny	t e t pw	t e t gy
+<S bracket end>
 <S Kanggé menawi Ciblon>
-[1 y 3 2	5 3 1 ny	1 y 3 p2	5 3 1 ny
-3 2 3 2	5 3 ! n6	5 3 5 p2	5 3 1 gy ]
+<S bracket start>
+1 y 3 2	5 3 1 ny	1 y 3 p2	5 3 1 ny
+3 2 3 2	5 3 ! n6	5 3 5 p2	5 3 1 gy 
+<S bracket end>

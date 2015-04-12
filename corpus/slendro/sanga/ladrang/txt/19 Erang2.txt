@@ -4,13 +4,17 @@
 <P sanga>
 <C gendhing gender>
 <S Buka>
-w	w e t y	y y y e	t y y g2
+w	. e t y	. y . e	t y . g2
 <S Ompak>
-[6 y y e	t y y nw	w y y pe	t y y n2
-2 y y pe	t y y n2	6 5 3 p6	3 5 3 g2
-2 t t y	y e e nt	t 1 1 py	y e e nt
-t 2 2 p3	3 5 5 n3	3 6 6 p6	5 3 2 g6 ]
-[6 6 6 6	5 3 2 n6	6 6 6 p6	5 3 2 n6
-6 6 6 p6	5 3 2 n6	5 5 5 p5	3 2 3 g5
+<S bracket start>
+. y . e	t y . nw	. y . pe	t y . n2
+. y . pe	t y . n2	6 5 3 p6	3 5 3 g2
+. t . y	. e . nt	. 1 . py	. e . nt
+. 2 . p3	. 5 . n3	. 6 6 p6	5 3 2 g6 
+<S bracket end>
+<S bracket start>
+. 6 6 6	5 3 2 n6	. 6 6 p6	5 3 2 n6
+. 6 6 p6	5 3 2 n6	5 5 5 p5	3 2 3 g5
 5 5 6 5	3 2 3 n5	5 5 6 p5	3 2 3 n5
-5 5 6 p5	3 2 3 n5	6 6 6 p6	5 3 2 g6 ]
+5 5 6 p5	3 2 3 n5	6 6 6 p6	5 3 2 g6 
+<S bracket end>

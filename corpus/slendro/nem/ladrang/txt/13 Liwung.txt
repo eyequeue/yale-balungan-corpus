@@ -3,10 +3,11 @@
 <L slendro>
 <P nem>
 <S Buka>
-			      y
-y 1 1 2	2 1 1 y	y e y t	t e e gw
-
-[w t t y	y e e nw	w t t py	y e e nw
-w t t py	y 1 1 ny	y 2 2 p1	1 2 2 gy
-y 6 5 3	2 1 2 ny	y 6 5 p3	2 1 2 ny
-y e e pt	t y y nt	t e e pt	t e e gw ]
+			y
+. 1 . 2	. 1 . y	y e y t	. e . gw
+<S bracket start>
+. t . y	. e . nw	. t . py	. e . nw
+. t . py	. 1 . ny	. 2 . p1	. 2 . gy
+. 6 5 3	2 1 2 ny	y 6 5 p3	2 1 2 ny
+. e . pt	. y . nt	. e . pt	. e . gw 
+<S bracket end>

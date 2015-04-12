@@ -5,7 +5,9 @@
 <S Buka>
 . 3 . 2	. 3 . 2	3 3 2 2	. 1 . gy
 
-[. 2 . 1	. 2 . ny	. 2 . p1	. 2 . ny
+<S bracket start>
+. 2 . 1	. 2 . ny	. 2 . p1	. 2 . ny
 . 2 . p1	. 2 . ny	. 3 . p6	. 3 . g2
 . 5 . 6	. 5 . n3	. ! . p6	. 5 . n3
-. 2 . p1	. 2 . ny	. 2 . p1	. 2 . gy ]
+. 2 . p1	. 2 . ny	. 2 . p1	. 2 . gy 
+<S bracket end>

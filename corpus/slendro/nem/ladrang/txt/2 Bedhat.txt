@@ -3,17 +3,21 @@
 <L slendro>
 <P nem>
 <S Buka>
-			      w
-w t t e	e t t w	w e t y	y t t ge
+			w
+. t . e	. t . w	. e t y	. t . ge
 <S Ladrang>
-[e 1 1 1	2 3 2 n1	t y 1 p1	2 3 2 n1
-t y 1 p1	2 3 2 n1	3 2 1 p2	2 1 2 gy
-y 1 2 3	2 1 2 ny	y 1 2 p3	2 1 2 ny
-y 1 2 p3	2 1 2 ny	! ! 6 p5	! 6 5 g3 o
-j35 6 j35 6	j35 6 j53 n2	j35 6 j35 p6	j35 6 j53 n2
-j35 6 j35 p6	j35 6 j53 n2	5 5 5 p5	! 6 5 g3 ]
+<S bracket start>
+. 1 1 1	2 3 2 n1	t y 1 p.	2 3 2 n1
+t y 1 p.	2 3 2 n1	3 2 1 p2	. 1 2 gy
+. 1 2 3	2 1 2 ny	. 1 2 p3	2 1 2 ny
+. 1 2 p3	2 1 2 ny	! ! 6 p5	! 6 5 g3
+.5 6 35 6	35 6 53 n2	35 6 35 p6	35 6 53 n2
+35 6 35 p6	35 6 53 n2	5 5 . p.	! 6 5 g3 
+<S bracket end>
 <S Suwuk>
-o [3 3 2 3	5 6 5 n3	3 3 2 p3	5 6 5 n3
-3 5 6 p!	! 5 6 n!	! 5 6 p3	5 6 ! g6
-6 5 3 5	6 ! 5 n6	6 5 3 p5	6 ! 5 n6
-3 5 6 p!	! 5 6 n!	! 5 ! p6	5 3 2 g3 ]
+<S bracket start>
+. 3 2 3	5 6 5 n3	. 3 2 p3	5 6 5 n3
+. 5 6 p!	. 5 6 n!	. 5 6 p3	5 6 ! g6
+. 5 3 5	6 ! 5 n6	. 5 3 p5	6 ! 5 n6
+3 5 6 p!	. 5 6 n!	. 5 ! p6	5 3 2 g3 
+<S bracket end>

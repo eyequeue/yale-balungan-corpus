@@ -3,9 +3,10 @@
 <L slendro>
 <P nem>
 <S Buka>
-2	2 1 y t	t y 1 2	2 1 2 gy
-
-[y 1 1 y	y 3 3 n2	2 1 1 py	y 3 3 n2
-2 y y pt	t y y nt	t 1 1 p2	2 1 1 gy
-y 3 3 5	5 3 3 n2	2 6 6 p5	5 3 3 n2
-2 y y pt	t y y nt	t 1 1 p2	2 1 1 gy ]
+2	2 1 y t	. y 1 2	. 1 2 gy
+<S bracket start>
+. 1 . y	. 3 . n2	. 1 . py	. 3 . n2
+. y . pt	. y . nt	. 1 . p2	. 1 . gy
+. 3 . 5	. 3 . n2	. 6 . p5	. 3 . n2
+. y . pt	. y . nt	. 1 . p2	. 1 . gy 
+<S bracket end>

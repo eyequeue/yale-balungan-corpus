@@ -4,7 +4,9 @@
 <P sanga>
 <C Nartosabdho>
 <S Buka>
-1 1 1 2	2 1 y t	2 2 2 2	1 1 2 g1
+2	2 1 y t	2 2 . .	1 1 2 g1
 
-[2 1 t y	2 3 2 n1	2 1 t py	2 3 5 n6
-! 5 6 p!	@ ! 6 n5	! 6 5 p2	5 3 2 g1 ]
+<S bracket start>
+2 1 t y	2 3 2 n1	2 1 t py	2 3 5 n6
+! 5 6 p!	@ ! 6 n5	! 6 5 p2	5 3 2 g1 
+<S bracket end>

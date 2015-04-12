@@ -4,13 +4,15 @@
 <P nem>
 <C Manis gong 2 ageng (or miscellaneous?)>
 <S Buka>
-			w y y t
-e t w e	t y 1 2	2 3 y t	t e e gw
+			. y . t
+e t w e	t y 1 2	2 3 y t	. e . gw
 <S Ompak>
-[w t t y	y t t ne	e t t py	y t t ne
-e t t py	y 1 1 ny	y e e pt	t e e gw
+<S bracket start>
+. t . y	. t . ne	. t . py	. t . ne
+. t . py	. 1 . ny	. e . pt	. e . gw
 <S Ngelik>
-w 5 5 6	6 5 5 n3	3 ! ! p6	6 5 5 n3
-3 5 5 p6	6 ! ! n6	6 3 3 p5	5 3 3 g2
-2 5 5 3	3 1 1 ny	y 2 2 p1	1 t t ne
-e t t py	y 1 1 ny	y e e pt	t e e gw ]
+. 5 . 6	. 5 . n3	. ! . p6	. 5 . n3
+. 5 . p6	. ! . n6	. 3 . p5	. 3 . g2
+. 5 . 3	. 1 . ny	. 2 . p1	. t . ne
+. t . py	. 1 . ny	. e . pt	. e . gw 
+<S bracket end>

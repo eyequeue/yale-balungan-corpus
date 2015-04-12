@@ -3,19 +3,24 @@
 <L slendro>
 <P sanga>
 <S Buka Gender>
-t 2 2 1	1 2 2 1	2 2 1 1	1 y y gt
+. 2 . 1	. 2 . 1	2 2 1 1	. y . gt
 <S Ompak>
-[_ . _ 2	_ . _ 1	_ . _ y	_ . _ nt
+<S bracket start>
+_ . _ 2	_ . _ 1	_ . _ y	_ . _ nt
 _ . _ 2	_ . _ p1	_ . _ y	_ . _ nt
-1 1 1 1	1 1 1 p1	1 1 3 2	1 y t ne
-jew jet jwe jtw	jet y e pt	t 2 2 1	1 y y gt ]
+1 1 . .	1 1 . p.	1 1 3 2	1 y t ne
+.w et we tw	et y e pt	. 2 . 1	. y . gt 
+<S bracket end>
 <S Ngelik>
-[_ . _ 2	_ . _ 1	_ . _ y	_ . _ nt
+<S bracket start>
+_ . _ 2	_ . _ 1	_ . _ y	_ . _ nt
 _ . _ 2	_ . _ p1	_ . _ 5	_ . _ n6
-j6@ j!@ 6 j6@	j!@ j65 j6! jp@k@5	k6j!@ k@k5k6! j@# !	! 6 6 jn55
-j55 j6! j1! j@5	j55 j6! j!! jp@k@5	k6j!@ k@k5k6! j@# !	6 5 3 g5 ]
+.@ !@ 6 6@	!@ 65 6! Dp@.5	A6!@ .56! @# !	. 6 . n55
+.5 6! .! @5	.5 6! .! Dp@.5	A6!@ .56! @# !	6 5 3 g5 
+<S bracket end>
 <S Suwuk>
 _ . _ 2	_ . _ 1	_ . _ y	_ . _ nt
 _ . _ 2	_ . _ p1	_ . _ y	_ . _ nt
-1 1 1 1	1 1 1 p1	1 1 3 2	1 y t ne
-e e w e	t y w pt	t 2 2 1	1 y y gt ]
+1 1 . .	1 1 . p.	1 1 3 2	1 y t ne
+. . w e	t y w pt	. 2 . 1	. y . gt 
+<S bracket end>

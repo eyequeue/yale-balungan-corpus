@@ -3,9 +3,13 @@
 <L slendro>
 <P sanga>
 <S Buka>
-w e w w	w e w t	y 1 2 1	y t e gt
+w e w .	w e w t	y 1 2 1	y t e gt
 <S Ompak>
-[w e w w	w e w nt	w e w pw	w e w nt
-w e w pw	w e w nt	y 1 2 p1	y t e gt ]
-[1 y 1 2	1 y e nt	1 y 1 p2	1 y e nt
-1 y 1 p2	1 y e nt	1 y 2 p1	y t e gt ]
+<S bracket start>
+w e w .	w e w nt	w e w p.	w e w nt
+w e w p.	w e w nt	y 1 2 p1	y t e gt 
+<S bracket end>
+<S bracket start>
+1 y 1 2	1 y e nt	1 y 1 p2	1 y e nt
+1 y 1 p2	1 y e nt	1 y 2 p1	y t e gt 
+<S bracket end>

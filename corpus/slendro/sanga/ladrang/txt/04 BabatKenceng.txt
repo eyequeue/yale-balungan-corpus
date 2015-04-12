@@ -3,10 +3,11 @@
 <L slendro>
 <P sanga>
 <S Buka>
-			      w
-w t t e	e t t w	w y y e	e y y gt
-
-[t e e y	y e e nt	t e e py	y e e nt
-t w w pe	e t t ne	e y y pt	t e e gw
-w t t e	e t t nw	w t t pe	e t t nw
-w t t pe	e t t nw	w y y pe	e y y gt ]
+			w
+. t . e	. t . w	. y . e	. y . gt
+<S bracket start>
+. e . y	. e . nt	. e . py	. e . nt
+. w . pe	. t . ne	. y . pt	. e . gw
+. t . e	. t . nw	. t . pe	. t . nw
+. t . pe	. t . nw	. y . pe	. y . gt 
+<S bracket end>

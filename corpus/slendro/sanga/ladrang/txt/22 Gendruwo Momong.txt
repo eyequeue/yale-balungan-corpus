@@ -3,7 +3,9 @@
 <L slendro>
 <P sanga>
 <S Buka>
-2 1 y y	2 1 y y	2 3 5 6	5 6 5 g5
+2 1 y .	2 1 y .	2 3 5 6	5 6 5 g.
 <S Ompak>
-[2 3 5 6	5 6 5 n5	2 1 y py	2 1 y ny
-2 1 y py	2 1 y ny	2 3 5 p6	5 6 5 g5 ]
+<S bracket start>
+2 3 5 6	5 6 5 n.	2 1 y p.	2 1 y n.
+2 1 y p.	2 1 y n.	2 3 5 p6	5 6 5 g.
+<S bracket end>

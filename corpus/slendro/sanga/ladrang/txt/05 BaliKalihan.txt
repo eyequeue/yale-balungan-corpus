@@ -2,8 +2,10 @@
 <T Bali Kalihan>
 <L slendro>
 <P sanga>
-[t 2 2 1	1 y y nt	t 2 2 p5	5 2 2 n1
-1 2 2 py	y 2 2 n1	1 2 2 p1	1 @ @ g!
-! # # @	@ 6 6 n5	5 ! ! p6	6 5 5 n6
-6 3 3 p5	5 2 2 n1	1 2 2 p1	1 y y gt ]
+<S bracket start>
+. 2 . 1	. y . nt	. 2 . p5	. 2 . n1
+. 2 . py	. 2 . n1	. 2 . p1	. @ . g!
+. # . @	. 6 . n5	. ! . p6	. 5 . n6
+. 3 . p5	. 2 . n1	. 2 . p1	. y . gt 
+<S bracket end>
 

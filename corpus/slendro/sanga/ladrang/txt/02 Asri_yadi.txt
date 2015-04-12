@@ -4,15 +4,17 @@
 <P sanga>
 <C Suyadi Téjapangrawit - 20 Mei 1999>
 <S Buka>
-t 2 2 1	1 2 2 1	2 2 1 1	1 y y gt
+. 2 . 1	. 2 . 1	2 2 1 1	. y . gt
 <S Ompak>
-[t y y t	t 2 2 n1	1 2 2 p1	1 5 5 n6
-6 5 5 p6	6 3 3 n5	5 2 2 p1	1 y y gt
-t y y t	t 2 2 n1	1 2 2 1	1 5 5 n6
-6 5 5 6	6 3 3 n5	5 2 2 p1	1 @ @ g!
+<S bracket start>
+. y . t	. 2 . n1	. 2 . p1	. 5 . n6
+. 5 . p6	. 3 . n5	. 2 . p1	. y . gt
+. y . t	. 2 . n1	. 2 . 1	. 5 . n6
+. 5 . 6	. 3 . n5	. 2 . p1	. @ . g!
 <S Ngelik>
-! # # @	@ 6 6 n5	5 ! ! p@	@ ! ! n6
-6 2 2 p5	5 6 6 n5	5 @ @ p!	! 6 6 g5\
-5 @ @ !	! @ @ n6	6 5 5 p6	6 3 3 n2
-2 3 3 p2	2 3 3 n5	5 2 2 p1	1 y y gt]
+. # . @	. 6 . n5	. ! . p@	. ! . n6
+. 2 . p5	. 6 . n5	. @ . p!	. 6 . g5\
+. @ . !	. @ . n6	. 5 . p6	. 3 . n2
+. 3 . p2	. 3 . n5	. 2 . p1	. y . gt
+<S bracket end>
 

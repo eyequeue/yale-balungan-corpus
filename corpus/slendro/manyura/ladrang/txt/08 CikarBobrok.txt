@@ -5,10 +5,14 @@
 <S Buka>
 . 6 2 .	2 3 6 5	! 6 5 3	6 5 3 g2
 <S Lancar>
-[. 6 2 .	2 3 6 n5	! @ ! p6	3 5 6 n3
-6 5 6 p2	6 ! 6 n5	! 6 5 p3	6 5 3 g2 ]
+<S bracket start>
+. 6 2 .	2 3 6 n5	! @ ! p6	3 5 6 n3
+6 5 6 p2	6 ! 6 n5	! 6 5 p3	6 5 3 g2 
+<S bracket end>
 <S Ciblon>
-[j22 j22 j35 6	j.5 6 3 j22	j22 j22 j35 6	j.5 6 3 n5
+<S bracket start>
+22 22 35 6	.5 6 3 22	22 22 35 6	.5 6 3 n5
 . ! . @	. ! . p6	. 3 . 5	. 6 . n3
 6 . 6 5	6 . 6 p2	6 . 6 !	6 . 6 n5
-. ! . 6	. 5 . p3	. 6 . p5	. 3 . g2 ]
+. ! . 6	. 5 . p3	. 6 . p5	. 3 . g2 
+<S bracket end>

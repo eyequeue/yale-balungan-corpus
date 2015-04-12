@@ -2,11 +2,12 @@
 <T Asri>
 <L slendro>
 <P sanga>
-[t y y t	t 3 3 n2	2 3 3 p2	2 1 1 ny
-y 1 1 py	y 2 2 n1	1 2 2 p1	1 y y gt
-t y y t	t 3 3 n2	2 3 3 p2	2 1 1 ny
-y 1 1 py	y 2 2 n1	1 2 2 p1	1 @ @ gg!
+<S bracket start>
+. y . t	. 3 . n2	. 3 . p2	. 1 . ny
+. 1 . py	. 2 . n1	. 2 . p1	. y . gt
+. y . t	. 3 . n2	. 3 . p2	. 1 . ny
+. 1 . py	. 2 . n1	. 2 . p1	. @ . gg!
 <S Ngelik>
-! # # @	@ 6 6 n5	5 ! ! p6	6 5 5 n6
-6 3 3 p5	5 2 2 n1	1 2 2 p1	1 y y gt ]
-
+. # . @	. 6 . n5	. ! . p6	. 5 . n6
+. 3 . p5	. 2 . n1	. 2 . p1	. y . gt 
+<S bracket end>

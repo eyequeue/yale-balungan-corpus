@@ -3,17 +3,23 @@
 <L slendro>
 <P sanga>
 <S Buka>
-1 ! ! !	! 6 5 2	2 y 1 2	1 1 2 g1
+. ! ! .	! 6 5 2	. y 1 2	1 1 2 g1
 
-[y 1 y 2	y 2 y n1	y 1 y p2	3 2 3 n5
-6 5 3 p2	3 2 3 n5	! 6 5 p2	5 3 2 g1 ]
+<S bracket start>
+y 1 y 2	y 2 y n1	y 1 y p2	3 2 3 n5
+6 5 3 p2	3 2 3 n5	! 6 5 p2	5 3 2 g1 
+<S bracket end>
 <S Irama II>
-[y 1 y 1	y 1 y 2	y 2 y 2	y 2 y n1
+<S bracket start>
+y 1 y 1	y 1 y 2	y 2 y 2	y 2 y n1
 y 1 y 1	y 1 y p2	3 2 3 2	3 2 3 n5
 6 5 6 5	6 5 3 p2	3 2 3 2	3 2 3 n5
-5 ! ! !	! 6 5 p2	2 2 2 2	1 1 2 g1 ]
+. ! ! .	! 6 5 p2	. . . .	1 1 2 g1 
+<S bracket end>
 
-[j11 j11 jy2 1	2 2 2 j22	j22 j22 j13 2	1 1 1 jn11
-j11 j11 jy2 1	2 2 2 p2	3 2 3 2	3 2 3 n5
+<S bracket start>
+11 11 y2 1	2 2 2 22	22 22 13 2	1 1 1 n11
+11 11 y2 1	2 2 2 p2	3 2 3 2	3 2 3 n5
 6 5 6 5	6 5 3 p2	3 2 3 2	3 2 3 n5
-5 ! ! !	! 6 5 jp22	j22 j22 j13 2	1 1 1 jg11 ]
+. ! ! .	! 6 5 p22	22 22 13 2	1 1 1 g11 
+<S bracket end>

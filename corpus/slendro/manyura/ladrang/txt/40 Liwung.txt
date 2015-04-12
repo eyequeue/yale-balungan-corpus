@@ -3,11 +3,13 @@
 <L slendro>
 <P manyura>
 <S Buka>
-                                             y
+			y
 . 1 . 2	. 1 . y	. e y t	. e . gw
 <S Ompak>
-[. t . y	. e . w	. t . py	. e . nw
+<S bracket start>
+. t . y	. e . w	. t . py	. e . nw
 . t . py	. 1 . ny	. 2 . p1	. 2 . gy
 
 . 6 5 3	2 1 2 ny	. 6 5 p3	2 1 2 ny
-. e . t	. y . nt	. e . pt	. e . gw ]
+. e . t	. y . nt	. e . pt	. e . gw 
+<S bracket end>

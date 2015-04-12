@@ -2,10 +2,13 @@
 <T Yujana>
 <L slendro>
 <P sanga>
-[t 2 2 1	1 y y nt	t y y pt	t 3 3 n2
-2 3 3 p2	2 3 3 n5	5 2 2 p1	1 y y gt
-t 2 2 1	1 y y nt	t y y pt	t 3 3 n2
-2 3 3 p2	2 3 3 n5	5 2 2 p1	1 @ @ n!
+<S bracket start>
+. 2 . 1	. y . nt	. y . pt	. 3 . n2
+. 3 . p2	. 3 . n5	. 2 . p1	. y . gt
+
+. 2 . 1	. y . nt	. y . pt	. 3 . n2
+. 3 . p2	. 3 . n5	. 2 . p1	. @ . n!
 <S Ngelik>
-! # # @	@ 6 6 n5	5 ! ! p6	6 3 3 n2
-2 5 5 p6	6 3 3 n5	5 2 2 p1	1 y y gt ]
+. # . @	. 6 . n5	. ! . p6	. 3 . n2
+. 5 . p6	. 3 . n5	. 2 . p1	. y . gt 
+<S bracket end>

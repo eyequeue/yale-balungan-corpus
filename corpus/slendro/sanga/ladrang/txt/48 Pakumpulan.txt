@@ -3,12 +3,15 @@
 <L slendro>
 <P sanga>
 <S Buka>
-t 2 2 3	5 6 5 3	2 3 2 1	y t e gt
+. 2 2 3	5 6 5 3	2 3 2 1	y t e gt
 
-[1 y t 1	t y 1 n2	3 5 3 p2	1 y e nt
-2 2 2 p3	5 6 5 n3	2 3 2 p1	y t e gt ]
+<S bracket start>
+1 y t 1	t y 1 n2	3 5 3 p2	1 y e nt
+2 2 . p3	5 6 5 n3	2 3 2 p1	y t e gt 
+<S bracket end>
 
-2 2 2 j35	j61 j16 j! jn5	6 3 2 p2	2 3 6 n5
-! 6 5 p6	5 3 2 n1	j1y jyt jty jpyt	jty jyt y g1
-1 2 2 1	1 5 5 jn6k62	k!j@6 k^k@k!@ k6k56! p@	j@@ ! 6 kn5k5k55
-k6k!k!! k@k5k55 k6k!k#! p@	j@2 ! 6 n5	j66 j66 j53 jp23	j56 j52 j1y gt ]
+2 2 . 35	61 .6 ! n5	6 3 2 p.	2 3 6 n5
+! 6 5 p6	5 3 2 n1	.y .t .y p.t	.y .t y g1
+. 2 . 1	. 5 . Dn6.2	A!@6 .@!@ 656! p@	.@ ! 6 n55.5
+6!.! @5.5 6!#! p@	.2 ! 6 n5	66 .6 53 p23	56 52 1y gt 
+<S bracket end>

@@ -2,5 +2,7 @@
 <T Pucang Keringan>
 <L slendro>
 <P manyura>
-[. 1 . y	. 3 . n2	. 5 . p3	. 2 . n1
-. 5 . p6	. 3 . n2	. 3 . p2	. 1 . gy ]
+<S bracket start>
+. 1 . y	. 3 . n2	. 5 . p3	. 2 . n1
+. 5 . p6	. 3 . n2	. 3 . p2	. 1 . gy 
+<S bracket end>

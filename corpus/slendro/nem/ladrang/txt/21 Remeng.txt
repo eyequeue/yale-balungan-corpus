@@ -3,13 +3,15 @@
 <L slendro>
 <P nem>
 <S Buka>
-t y 1 1	2 1 y t	! ! ! !	# @ ! g6
+t y 1 .	2 1 y t	! ! ! !	# @ ! g6
 
-[6 6 6 6	6 6 5 n6	6 6 5 p3	2 2 3 n2
-2 2 y p1	2 2 3 n2	3 2 1 py	t y 1 g2
+<S bracket start>
+. 6 6 .	6 6 5 n6	. 6 5 p3	2 2 3 n2
+. . y p1	2 . 3 n2	3 2 1 py	t y 1 g2
 3 2 1 y	t y 1 n2	3 2 1 py	3 3 2 n3
-3 3 5 p6	! 6 5 n3	5 6 ! p6	5 3 2 g3
+. 3 5 p6	! 6 5 n3	5 6 ! p6	5 3 2 g3
 6 5 2 1	y 1 2 n3	5 6 ! p6	5 3 2 n1
-1 1 1 p1	1 1 2 n1	3 2 1 p2	2 1 y gt
-t y 1 2	2 1 y nt	t y 1 p2	2 1 y nt
-t y 1 p2	2 1 y nt	! ! ! p!	# @ ! g6 ]
+. 1 1 p.	1 1 2 n1	3 2 1 p2	. 1 y gt
+. y 1 2	. 1 y nt	. y 1 p2	. 1 y nt
+. y 1 p2	. 1 y nt	! ! . p.	# @ ! g6 
+<S bracket end>

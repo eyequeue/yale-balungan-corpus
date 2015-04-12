@@ -2,8 +2,11 @@
 <T Bantul>
 <L slendro>
 <P manyura>
-[. 1 . y	. 2 . n3	. 5 . p3	. 2 . n1
-. 2 . p1	. 2 . ny	. 3 . p2	. 1 . gy ]
+<S bracket start>
+. 1 . y	. 2 . n3	. 5 . p3	. 2 . n1
+. 2 . p1	. 2 . ny	. 3 . p2	. 1 . gy 
+<S bracket end>
 <S Ngelik>
 . @ . !	! 5 . n3	. 5 . py	. 5 . n3
-. @ . p!	! @ . n6	. 3 . p2	. 1 . gy ]
+. @ . p!	! @ . n6	. 3 . p2	. 1 . gy 
+<S bracket end>

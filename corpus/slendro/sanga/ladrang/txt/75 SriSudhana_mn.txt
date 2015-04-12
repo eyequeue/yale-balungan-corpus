@@ -4,12 +4,14 @@
 <P sanga>
 <C MN>
 <S Buka>
-t 2 2 1	1 2 2 1	2 2 1 1	1 y y gt
+. 2 . 1	. 2 . 1	2 2 1 1	. y . gt
 <S Ompak>
 1 2 1 y	3 2 y nt	1 2 1 py	3 2 y nt
-2 2 2 p2	6 ! 6 n5	2 3 2 p1	y t e gt
-[1 2 1 y	3 2 y nt	1 2 1 py	3 2 6 n5
+2 2 . p.	6 ! 6 n5	2 3 2 p1	y t e gt
+<S bracket start>
+1 2 1 y	3 2 y nt	1 2 1 py	3 2 6 n5
 <S Ngelik>
-5 5 5 p6	! @ ! n6	@ # @ p!	6 5 3 g5
+. . 5 p6	! @ ! n6	@ # @ p!	6 5 3 g5
 ! 6 5 6	5 3 1 n2	3 5 3 p2	1 y e nt
-1 1 1 p1	3 2 1 ny	3 5 3 p2	1 y e gt ]
+1 1 . p.	3 2 1 ny	3 5 3 p2	1 y e gt 
+<S bracket end>

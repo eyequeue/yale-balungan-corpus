@@ -3,14 +3,18 @@
 <L slendro>
 <P sanga>
 <S Buka>
-t 2 2 1	1 2 2 1	2 2 1 1	1 y y gt
+. 2 . 1	. 2 . 1	2 2 1 1	. y . gt
 <S Ompak>
-[t 2 2 1	1 y y nt	t 2 2 p5	5 2 2 n1
-1 2 2 p1	1 2 2 n1	1 2 2 p1	1 y y gt ]
+<S bracket start>
+. 2 . 1	. y . nt	. 2 . p5	. 2 . n1
+. 2 . p1	. 2 . n1	. 2 . p1	. y . gt 
+<S bracket end>
 <S Wilet>
-[t 2 2 1	1 y y nt	t 2 2 p5	5 2 2 n1
-1 5 5 p6	6 2 2 n1	1 2 2 p1	1 y y gt
-<C second ending			t @ @ g!>
+<S bracket start>
+. 2 . 1	. y . nt	. 2 . p5	. 2 . n1
+. 5 . p6	. 2 . n1	. 2 . p1	. y . gt
+<E second ending			. @ . g!>
 <S Ngelik>
-t # # @	@ 6 6 n5	5 ! ! p6	6 5 5 n6
-6 5 5 p6	6 3 3 n5	5 2 2 p1	1 y y gt ]
+. # . @	. 6 . n5	. ! . p6	. 5 . n6
+. 5 . p6	. 3 . n5	. 2 . p1	. y . gt 
+<S bracket end>

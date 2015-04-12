@@ -5,8 +5,12 @@
 <S Buka>
 . 2 3 5	6 5 3 2	1 y t e	t y 1 gy
 <S Ompak>
-[t e 1 y	t e 1 ny	3 3 2 p3	6 5 3 n2
-3 2 3 p5	6 5 3 n2	1 y t pe	t y 1 gy ]
+<S bracket start>
+t e 1 y	t e 1 ny	3 3 2 p3	6 5 3 n2
+3 2 3 p5	6 5 3 n2	1 y t pe	t y 1 gy 
+<S bracket end>
 <S Ngelik>
-[. . 6 3	5 6 ! n6	3 5 6 p!	6 5 3 n2
-3 2 3 p5	6 5 3 n2	1 y t pe	t y 1 gy ]
+<S bracket start>
+. . 6 3	5 6 ! n6	3 5 6 p!	6 5 3 n2
+3 2 3 p5	6 5 3 n2	1 y t pe	t y 1 gy 
+<S bracket end>

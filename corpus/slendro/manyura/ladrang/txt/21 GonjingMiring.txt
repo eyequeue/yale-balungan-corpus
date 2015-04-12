@@ -5,15 +5,21 @@
 <S Buka>
 . 3 . 2	. 3 . 2	6 ! 6 5	2 1 2 gy
 <S Ompak>
-[2 1 2 y	2 1 2 n6	3 5 6 p!	6 5 3 n2
-1 3 1 p2	1 3 1 n2	6 ! 6 p5	2 1 2 gy ]
+<S bracket start>
+2 1 2 y	2 1 2 n6	3 5 6 p!	6 5 3 n2
+1 3 1 p2	1 3 1 n2	6 ! 6 p5	2 1 2 gy 
+<S bracket end>
 <S Ciblon>
-[2 3 2 1	3 2 1 y	2 3 2 1	3 2 1 n6
+<S bracket start>
+2 3 2 1	3 2 1 y	2 3 2 1	3 2 1 n6
 @ @ . .	@ # @ p!	6 5 6 3	6 5 3 n2
 1 2 1 3	1 3 1 p2	1 2 1 3	1 3 1 n2
-6 6 . .	@ ! 6 pj56	j35 6 2 1	3 2 1 gy ]
+6 6 . .	@ ! 6 p56	35 6 2 1	3 2 1 gy 
+<S bracket end>
 <S Gobyogan>
-[2 3 2 1	3 2 1 y	2 3 2 1	3 2 1 n6
-@ @ . .	@ # @ p!	6 5 6 3	6 5 3 jn2n1
-jpn2n1 jpn2n1 jpn2n1 jpn3n1	jpn3n1 jpn3n1 jpn3n1 jpn2n1	jpn2n1 jpn2n1 jpn2n1 jpn3n1	jpn3n1 jpn3n1 jpn3n1 n2
-6 6 . .	@ ! 6 jp56	j35 6 2 1	3 2 1 gy ]
+<S bracket start>
+2 3 2 1	3 2 1 y	2 3 2 1	3 2 1 n6
+@ @ . .	@ # @ p!	6 5 6 3	6 5 3 n2n1
+pn2n1 pn2n1 pn2n1 pn3n1	pn3n1 pn3n1 pn3n1 pn2n1	pn2n1 pn2n1 pn2n1 pn3n1	pn3n1 pn3n1 pn3n1 n2
+6 6 . .	@ ! 6 p56	35 6 2 1	3 2 1 gy 
+<S bracket end>

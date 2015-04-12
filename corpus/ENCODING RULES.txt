@@ -1,0 +1,33 @@
+Metadata goes in angle brackets: < >. The first character in the angles indicates what the metadata type is:
+
+F = form (in this case ladrang)
+T = title (in this case Wilujeng Alus)
+L = laras or tuning system (in this case slendro)
+P = pathet or mode (in this case manyura)
+C = composer
+S = section within the composition (in this case buka, then ompak, then ngelik)
+E = used to make notes for us in the future when there's a second-ending situation
+
+Any metadata tag should go on its own line.
+
+Any line that is not a metadata tag should contain four gatras. The first gatra begins at the beginning of the line. Successive gatras are separated by a single tab character.
+
+The four beats in a gatra should be separated by single space characters.
+
+Do not use "j" and "k" to create beams. Instead, use the following system to indicate rhythm:
+	- a beat with two "eighth notes" (notated with a single beam) should just give the notes with no space between them.
+	- a beat with four "sixteenth notes" (notated with a double beam) should give all four notes with no space between them.
+	- a beat that mixes eighths and sixteenths must be preceded by a single-letter code that specifies the rhythm:
+		A (for anapest): two sixteenths followed by an eighth
+		D (for dactyl): an eighth followed by two sixteenths 
+
+Rests (dots) should be entered as periods.
+
+Where a left or right bracket appears in the PDF....
+
+Where a star appears in the PDF.....
+
+Where a second ending (pointing finger) appears in the PDF....
+
+
+[GIVE EXAMPLES]

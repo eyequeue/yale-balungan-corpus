@@ -4,12 +4,14 @@
 <P sanga>
 <C Warsodiningratan 23-4-1965>
 <S Buka>
-t 2 2 2	5 3 2 1	1 2 2 1	y t e gt
+. 2 2 .	5 3 2 1	. 2 . 1	y t e gt
 <S Ompak>
-t t t y	1 2 3 n2	5 6 5 p3	2 1 2 ny
-2 2 2 p2	5 3 2 n1	2 3 2 p1	y t e gt
-[t t t y	1 2 3 n2	5 6 5 p3	2 1 2 n6
+. . t y	1 2 3 n2	5 6 5 p3	2 1 2 ny
+2 2 . p.	5 3 2 n1	2 3 2 p1	y t e gt
+<S bracket start>
+. . t y	1 2 3 n2	5 6 5 p3	2 1 2 n6
 <S Ngelik>
-6 6 6 p6	5 5 6 n!	# @ ! p@	@ ! 6 g5
+. . 6 p.	5 5 6 n!	# @ ! p@	. ! 6 g5
 ! 6 5 6	5 3 1 n2	5 6 5 p3	2 1 2 ny
-2 2 2 p2	5 3 2 n1	2 3 2 p1	y t e gt ]
+2 2 . p.	5 3 2 n1	2 3 2 p1	y t e gt 
+<S bracket end>

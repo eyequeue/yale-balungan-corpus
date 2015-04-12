@@ -8,7 +8,9 @@
 . 2 . 1	. 2 . ny	. 2 . p1	. 2 . ny
 3 3 . p.	6 5 3 n2	. 3 . p2	. 1 2 gy
 <S Ngelik>
-[. 2 . 1	. 2 . ny	. 2 . p1	. 2 . n6
+<S bracket start>
+. 2 . 1	. 2 . ny	. 2 . p1	. 2 . n6
 . . 6 p.	@ # @ n!	# @ 6 p5	3 5 6 g!
 . . ! .	6 6 ! n@	6 3 2 p1	3 5 3 n2
-6 ! # p@	6 3 2 n1	. 3 . p2	. 1 2 gy ]
+6 ! # p@	6 3 2 n1	. 3 . p2	. 1 2 gy 
+<S bracket end>

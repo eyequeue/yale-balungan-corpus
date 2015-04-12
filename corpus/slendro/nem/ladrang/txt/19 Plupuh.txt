@@ -3,15 +3,18 @@
 <L slendro>
 <P nem>
 <S Buka>
-		      w	w e t y
-y 1 2 2	3 2 1 y	y e y t	t e e gw
+		w	. e t y
+. 1 2 .	3 2 1 y	y e y t	. e . gw
 <S Ompak>
-[w e e t	t e e nw	w 1 1 py	y e e nt
-t e e pt	t y y nt	t 1 1 py	y e e gw ]
+<S bracket start>
+. e . t	. e . nw	. 1 . py	. e . nt
+. e . pt	. y . nt	. 1 . py	. e . gw 
+<S bracket end>
 <S Ngelik>
-w 3 3 5	5 3 3 n2	2 5 5 p3	3 5 5 n2
-2 5 5 p3	3 5 5 n2	2 5 5 p3	3 1 1 gy
-y 3 3 2	2 1 1 ny	y 5 5 p3	3 5 5 n2
-2 5 5 p3	3 5 5 n2	2 5 5 p3	3 1 1 gy
-y 3 3 5	5 1 1 ny	y 1 1 py	y e e nt
-t e e pt	t e e nt	t 1 1 py	y e e gw ]
+. 3 . 5	. 3 . n2	. 5 . p3	. 5 . n2
+. 5 . p3	. 5 . n2	. 5 . p3	. 1 . gy
+. 3 . 2	. 1 . ny	. 5 . p3	. 5 . n2
+. 5 . p3	. 5 . n2	. 5 . p3	. 1 . gy
+. 3 . 5	. 1 . ny	. 1 . py	. e . nt
+. e . pt	. e . nt	. 1 . py	. e . gw 
+<S bracket end>

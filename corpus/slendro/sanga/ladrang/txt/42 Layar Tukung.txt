@@ -2,9 +2,12 @@
 <T Layar Tukung>
 <L slendro>
 <P sanga>
-[t 2 2 1	1 y y nt	t y y pt	t 3 3 n2
-2 3 3 p5	5 2 2 n1	1 2 2 p1	1 y y gt ]
+<S bracket start>
+. 2 . 1	. y . nt	. y . pt	. 3 . n2
+. 3 . p5	. 2 . n1	. 2 . p1	. y . gt 
+<S bracket end>
 <S Ngelik>
-<C source gives a 'second ending' to the previous section:			t @ @ g!>
-! # # @	@ 6 6 n5	5 6 6 p5	5 2 2 n1
-1 5 5 p6	6 2 2 n1	1 2 2 p1	1 y y gt ]
+<E second ending			. @ . g!>
+. # . @	. 6 . n5	. 6 . p5	. 2 . n1
+. 5 . p6	. 2 . n1	. 2 . p1	. y . gt 
+<S bracket end>

@@ -5,7 +5,9 @@
 <S Buka>
 . w w e	. t e w	y y 1 y	w e t gy
 
-[1 t 1 y	w e t ny	1 t 1 py	w e t ny
+<S bracket start>
+1 t 1 y	w e t ny	1 t 1 py	w e t ny
 1 t 1 py	w e t ny	t t y pe	y t e gw
 t y t e	y t e nw	t y t pe	y t e nw
-t y t pe	y t e nw	y y 1 py	w e t gy ]
+t y t pe	y t e nw	y y 1 py	w e t gy 
+<S bracket end>

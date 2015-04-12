@@ -5,7 +5,9 @@
 <S Buka>
 1 t y .	1 y t e	t y t w	t y t ge
 
-[t y t w	t y t ne	t y t pw	t y t ne
+<S bracket start>
+t y t w	t y t ne	t y t pw	t y t ne
 t y t pw	t y t ne	1 t y p.	1 y t ge
 1 t y .	1 y t ne	1 t y p.	1 y t ne
-1 t y p.	1 y t ne	t y t pw	t y t ge ]
+1 t y p.	1 y t ne	t y t pw	t y t ge 
+<S bracket end>

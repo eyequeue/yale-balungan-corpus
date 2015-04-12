@@ -1,0 +1,20 @@
+ENCODING IDEAS:
+
+How should we handle codas (stars) and second endings (pointing fingers)?
+
+Instead of j and k use D for dactyl (lss) and A for anapest (ssl). This will make the lines less human readable in KepatihanPro, but it will be more machine readable. Is an amphibrach (sls) possible? If so, we need a code for that too.
+
+QUESTIONS FOR SARAH:
+
+Ladrang Koncang, laras sléndro pathet sanga -- last right bracket has no corresponding left bracket
+Ladrang Sri Minulya, laras sléndro pathet sanga -- same thing
+Ladrang Kandha, laras sléndro pathet nem -- same thing
+
+Ladrang Peksi Kuwung, laras sléndro pathet nem -- does the buka end after the first line (where the first gong is), or after the third line (where the bracket starts)?
+
+Ladrang Sobah, laras sléndro pathet nem -- missing on purpose?
+
+Do we need to get permission [from whoever published the PDFs] to make this more widely available?
+
+Ladrang Surung Dhayung Mataraman, laras sléndro pathet sanga -- second-last line has gong suwukan marks. Do we need to keep track of these as part of the colotomic structure? Also, there's a lot of pul and nong in that line -- is this considered part of the colotomic structure?
+

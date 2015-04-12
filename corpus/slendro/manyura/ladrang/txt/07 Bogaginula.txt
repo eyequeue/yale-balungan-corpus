@@ -3,8 +3,10 @@
 <L slendro>
 <P manyura>
 
-[. 3 . 2	. 3 . n1	. 3 . p2	. 1 . ny
+<S bracket start>
+. 3 . 2	. 3 . n1	. 3 . p2	. 1 . ny
 . 3 . p2	. 3 . n1	. 3 . p2	. 1 . g6 
 
 . @ . !	. 5 . n3	. 5 . p6	. 5 . n3
-. @ . p!	. 3 . n2	. 3 . p2	. 1 . gy ]
+. @ . p!	. 3 . n2	. 3 . p2	. 1 . gy 
+<S bracket end>

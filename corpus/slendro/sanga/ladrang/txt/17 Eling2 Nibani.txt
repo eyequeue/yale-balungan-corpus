@@ -2,7 +2,9 @@
 <T Éling-Éling>
 <L slendro>
 <P sanga>
-[t 2 2 1	1 y y nt	t 2 2 p1	1 y y nt
-t 2 2 p1	1 y y nt	t 2 2 p1	1 @ @ g!
-! # # @	@ 6 6 n5	5 ! ! p6	6 3 3 n2
-2 2 2 jp35	j6! j!6 ! n5	5 2 2 p1	1 y y gt ]
+<S bracket start>
+. 2 . 1	. y . nt	. 2 . p1	. y . nt
+. 2 . p1	. y . nt	. 2 . p1	. @ . g!
+. # . @	. 6 . n5	. ! . p6	. 3 . n2
+. 2 . p35	6! .6 ! n5	. 2 . p1	. y . gt 
+<S bracket end>
