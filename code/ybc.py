@@ -36,6 +36,21 @@ class ybcGatra:
         output = ''
         for n in self.notes: output += n.__str__() + '\n'
         return output
+
+    def getNoteAtOrAfter(self, beat): # self is a ybcGatra instance
+
+        for n in self.notes:
+            if n.beat < beat or n.pitch == '': continue
+            else: return n
+        return False
+  
+    def getNoteAtBeat(self, beat): # self is a ybcGatra instance
+
+        for n in self.notes:
+            if n.beat != beat: continue
+            else: return n
+        return False
+  
         
 class ybcNote:                # class for balungan notes
     def __init__(self, pitch='', beat='-1', encoded=''):

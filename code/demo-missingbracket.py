@@ -16,5 +16,5 @@ for b in corpus.balungans:
 		if s.name == 'bracket start': leftBrackets += 1
 		if s.name == 'bracket end': rightBrackets += 1
 	if leftBrackets != rightBrackets:
-		print "{:50} {} left brackets, {} right brackets".format(b.filename[71:], leftBrackets, rightBrackets)
+		print "{} {} left brackets, {} right brackets".format(b.filename, leftBrackets, rightBrackets)
 	

@@ -2,6 +2,7 @@
 
 import math
 import copy
+import collections
 
 def isFloat(x):
     try:
@@ -66,3 +67,24 @@ def KL (d1, d2):
         
     return kld
   
+def ConditionalEntropy (d):  # d is a dictionary of tuples
+
+    dict1 = collections.Counter()
+    dict2 = collections.Counter()
+
+    for t in d:
+        dict1[t[0]] += d[t]
+        dict2[t[1]] += d[t]
+    
+    H = 0
+    for i in dict1:
+        for j in dict2: 
+                s = sum(dict2.values())
+                p_i = 1.*dict1[i]/sum(dict1.values())
+                p_j = 1.*dict2[j]/sum(dict2.values())
+                p_joint = 1.*d[tuple([i,j])]/s
+                if p_joint == 0: continue
+                H += p_joint * math.log( p_i / p_joint )
+  #              pass
+    return H
+    print dict1, dict2
